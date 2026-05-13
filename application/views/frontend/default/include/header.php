@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
     <link name="favicon" type="image/x-icon"
-          href="<?php echo base_url('uploads/system/' . get_frontend_settings('favicon')); ?>" rel="shortcut icon"/>
+          href="<?php echo base_url('assets/frontend/default/assets/unilogo.png' ); ?>" rel="shortcut icon"/>
 
     
 
