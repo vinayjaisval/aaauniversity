@@ -1,0 +1,301 @@
+<?php
+$this->load->view('frontend/default/include/header');
+
+?>
+    <div class="edu-breadcrumb-area">
+        <div class="container">
+            <div class="breadcrumb-inner">
+                <div class="page-title">
+                    <h1 class="title">Checkout Page</h1>
+                </div>
+                <ul class="edu-breadcrumb">
+                    <li class="breadcrumb-item"><a href="index-one.html">Home</a></li>
+                    <li class="separator"><i class="icon-angle-right"></i></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="separator"><i class="icon-angle-right"></i></li>
+                    <li class="breadcrumb-item active" aria-current="page">Checkout</li>
+                </ul>
+            </div>
+        </div>
+        <ul class="shape-group">
+            <li class="shape-1">
+                <span></span>
+            </li>
+            <li class="shape-2 scene"><img data-depth="2"
+                                           src="<?php echo base_url('uploads/system/images/about/shape-13.png') ?>"
+                                           alt="shape"></li>
+            <li class="shape-3 scene"><img data-depth="-2"
+                                           src="<?php echo base_url('uploads/system/images/about/shape-15.png') ?>"
+                                           alt="shape"></li>
+            <li class="shape-4">
+                <span></span>
+            </li>
+            <li class="shape-5 scene"><img data-depth="2"
+                                           src="<?php echo base_url('uploads/system/images/about/shape-07.png') ?>"
+                                           alt="shape"></li>
+        </ul>
+    </div>
+
+    <!--=====================================-->
+    <!--=       Checkout Area Start         =-->
+    <!--=====================================-->
+    <section class="checkout-page-area section-gap-equal" style="padding-top: 60px!important;">
+        <div class="container">
+            <form>
+                <!--                    <div class="checkout-notice">-->
+                <!--                        <div class="coupn-box">-->
+                <!--                            <h6 class="toggle-bar"> Have a coupon?-->
+                <!--                                <a href="javascript:void(0)" class="toggle-btn">Click here to enter your code</a>-->
+                <!--                            </h6>-->
+                <!--                            <div class="toggle-open">-->
+                <!--                                <p>If you have a coupon code, please apply it below.</p>-->
+                <!--                                <div class="input-group">-->
+                <!--                                    <input placeholder="Enter coupon code" type="text">-->
+                <!--                                    <div class="apply-btn">-->
+                <!--                                        <button type="submit" class="edu-btn btn-medium">Apply</button>-->
+                <!--                                    </div>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <div class="row row--25">
+                    <!-- Start Billing Address Code-->
+                    <!--
+                    <div class="col-lg-6">
+                        <div class="checkout-billing">
+                            <h3 class="title">Billing Details</h3>
+                            <div class="row g-lg-5">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label>First Name*</label>
+                                        <input type="text" id="first-name">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label>Last Name*</label>
+                                        <input type="text" id="last-name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Company Name</label>
+                                <input type="text" id="company-name">
+                            </div>
+                            <div class="form-group">
+                                <label>Email Address*</label>
+                                <input type="email" id="email">
+                            </div>
+                            <div class="row g-lg-5">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label>Phone*</label>
+                                        <input type="tel" id="phone">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label>Country*</label>
+                                        <select id="country">
+                                            <option value="0">Select Option</option>
+                                            <option value="3">Australia</option>
+                                            <option value="4">England</option>
+                                            <option value="6">New Zealand</option>
+                                            <option value="5">Switzerland</option>
+                                            <option value="1">United Kindom (UK)</option>
+                                            <option value="2">United States (USA)</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Address*</label>
+                                <input type="text" id="address1">
+                                <input type="text" id="address2">
+                            </div>
+                            <div class="form-group">
+                                <label>Town/ City*</label>
+                                <input type="text" id="town">
+                            </div>
+                            <div class="row g-lg-5">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label>State*</label>
+                                        <select id="state">
+                                            <option value="0">Select Option</option>
+                                            <option value="1">Australia</option>
+                                            <option value="2">England</option>
+                                            <option value="3">New Zealand</option>
+                                            <option value="4">Switzerland</option>
+                                            <option value="5">United Kindom (UK)</option>
+                                            <option value="6">United States (USA)</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label>Zip Code*</label>
+                                        <input type="tel" id="phone">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="edu-form-check">
+                                    <input type="checkbox" id="crt-accnt" class="w-25">
+                                    <label for="crt-accnt">Create an Accoutn?</label>
+                                </div>
+                            </div>
+                            <div class="form-group mt--50 mb-0">
+                                <label>Order Notes</label>
+                                <textarea id="notes" rows="4" placeholder="Notes about your order, e.g. speacial notes for delivery."></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+                    <!-- End Billing Address Code-->
+
+                    <div class="col-lg-3">
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="order-summery checkout-summery">
+                            <div class="summery-table-wrap">
+                                <h4 class="title">Your Orders</h4>
+                                <table class="table summery-table">
+
+                                    <?php
+                                    $sub_total = 0;
+                                    $total = 0;
+                                    $cart_item = $this->session->userdata('course_cart');
+                                    $cart_course_id = explode(',', $cart_item);
+                                    $show = 0;
+                                    foreach ($cart_course_id as $key => $id) {
+                                        $course_details = $this->crud_model->get_course_by_id($id)->result_array();
+                                        $this->db->where('FIND_IN_SET("'.$id.'",course_id) <>','0')->limit(1)->order_by('id',"DESC");
+                                        $qw= $this->db->get('ck_webinar')->result_array();
+                                        $datetime_1=$qw[0]['end_time'];                
+                                        date_default_timezone_set('Asia/Kolkata'); 
+                                        $datetime_2 = date("Y-m-d H:i:s"); 
+                                        $from_time = strtotime($datetime_1); 
+                                        $to_time = strtotime($datetime_2); 
+                                        $diff_minutes = round(abs($from_time - $to_time) / 60,2). " minutes";
+                                        $now_time = date("Y-m-d H:i:s");
+                                        $offer_start_time = $qw[0]['end_time'];
+                    
+                                        $now_time = strtotime($now_time); 
+                    
+                    
+                                        if($qw[0] != ''){
+                    
+                                            $addfirst_offer_time= strtotime($offer_start_time.' + 120 minute');
+                    
+                                
+                                            $end_time = strtotime($qw[0]['end_time']);
+                    
+                                            if($now_time >= $end_time){
+                    
+                                                if($now_time <= $addfirst_offer_time){
+                                                    // echo 'first 25% off';
+                                                    $dis= $course_details[0]['price']*25/100;
+                                                  
+                    
+                                                }elseif($now_time <= strtotime($offer_start_time.' + 1080 minute')){
+                                                    // echo 'first 20% off';
+                                                    $dis=$course_details[0]['price']*20/100;
+                                                } else{
+                                                    $dis=0;
+                                                }
+                                            }
+                                        }else{
+                                            $dis=0;
+                                        }
+                                        
+                                        foreach ($course_details as $c_details) {
+                                            $total = $total + $c_details['price']-$dis;
+                                            $sub_total = $sub_total + $c_details['price'];
+                                            $show++;
+                                            ?>
+                                            <tr>
+                                                <td style="font-weight: 500"><?php echo $c_details['title'] ?></td>
+                                                <td style="font-weight: bold">₹<?php echo $c_details['price']-$dis ?></td>
+                                            </tr>
+
+                                            <?php
+                                        }
+                                    }
+
+                                    ?>
+
+
+                                </table>
+
+                                <table class="table summery-table" style="margin-top: 10px">
+
+                                    <tr class="order-subtotal">
+                                        <td>Sub Total</td>
+                                        <td id="sub_total_money"></td>
+                                    </tr>
+                                    <tr class="order-total">
+                                        <td style="margin-top: 200px">Order Total</td>
+                                        <td id="total_money"></td>
+                                    </tr>
+                                </table>
+
+                                <a href="<?php echo base_url('pay')?>" style="margin-top: 30px" class="edu-btn order-place">
+                                    <?php $this->session->set_userdata('total_courses_amount', $total)?>
+                                    Pay Now
+                                    <i class="icon-4"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                    </div>
+
+                    <!-- Payment Option-->
+                    <!--
+                    <div class="col-lg-6">
+                        <div class="order-summery checkout-summery">
+                            <div class="order-payment" style="margin-top: 0px!important;">
+                                <h4 class="title">Payment</h4>
+                                <div class="payment-method">
+                                    <div class="form-group">
+                                        <div class="edu-form-check">
+                                            <input type="radio" id="pay-bank" name="payment">
+                                            <label for="pay-bank">Direct Bank Transfer</label>
+                                        </div>
+                                        <p>Please send a check to Store Name, Store Street, Store Town, Store State /
+                                            County, Store Postcode.</p>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="edu-form-check">
+                                            <input type="radio" id="pay-pal" name="payment">
+                                            <label for="pay-pal">PayPal</label>
+                                            <a href="#">What is Paypal?</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="edu-btn order-place">Place Your order <i class="icon-4"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    -->
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        $(document).ready(function (){
+            $('#sub_total_money').text('₹'+"<?php echo $sub_total?>");
+            $('#total_money').text('₹'+"<?php echo $total?>");
+        })
+    </script>
+
+<?php
+$this->load->view('frontend/default/include/footer');
+
+?>

@@ -1,0 +1,127 @@
+<!-- start page title -->
+<div class="row ">
+    <div class="col-xl-12">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="page-title"><i
+                            class="mdi mdi-apple-keyboard-command title_icon"></i> <?php echo get_phrase('enrol_a_student'); ?>
+                </h4>
+            </div> <!-- end card body-->
+        </div> <!-- end card -->
+    </div><!-- end col-->
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-xl-7">
+        <div class="card">
+            <div class="card-body">
+                <div class="col-lg-12">
+                    <h4 class="mb-3 header-title"><?php echo get_phrase('enrolment_form'); ?></h4>
+
+                    <form class="required-form" action="<?php echo site_url('admin/installment_repay/update'); ?>"
+                          method="post" enctype="multipart/form-data">
+
+                        <div class="form-group" style="pointer-events:unset; ">
+                            <label for="user_id"><?php echo get_phrase('user'); ?><span class="required">*</span>
+                            </label>
+                            <select class="form-control select2" data-toggle="select2" name="1" id="user_id"
+                                    required disabled>
+                                <option value=""><?php echo get_phrase('select_a_user'); ?></option>
+                                <?php $user_list = $this->user_model->get_user(0, '', 'students')->result_array();
+                                foreach ($user_list as $user):?>
+                                    <option value="<?php echo $user['id'] ?>" <?php echo ($user['id'] == $offline_payment_data[0]['user_id']) ? 'selected' : '' ?>><?php echo $user['first_name'] . ' ' . $user['last_name']; ?></option>
+                                <?php endforeach; ?>
+                            </select>
+                            <input type="hidden" name="user_id" value="<?= $offline_payment_data[0]['user_id'] ?>">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="course_id"><?php echo get_phrase('course_to_enrol'); ?><span
+                                        class="required">*</span> </label>
+                            <select class="form-control select2" data-toggle="select2" name="course_id1" id="course_id"
+                                    required disabled>
+                                <option value=""><?php echo get_phrase('select_a_course'); ?></option>
+                                <?php $course_list = $this->crud_model->get_courses()->result_array();
+                                foreach ($course_list as $course):
+                                    if ($course['status'] != 'active')
+                                        continue; ?>
+                                    <option value="<?php echo $course['id'] ?>" <?php echo ($course['id'] == $offline_payment_data[0]['course_id']) ? 'selected' : '' ?>><?php echo $course['title']; ?></option>
+                                <?php endforeach; ?>
+                                <input type="hidden" name="course_id"
+                                       value="<?= $offline_payment_data[0]['course_id'] ?>">
+
+                            </select>
+                        </div>
+
+                        <?php
+                        $course_data = $this->db->get_where('course', array('id' => $offline_payment_data[0]['course_id']))->row_array();
+
+                        ?>
+                        <div class="form-group" id="input">
+                            <label for="c_money"><?php echo get_phrase('Course_amount'); ?><span
+                                        class="required">*</span> </label>
+                            <input type="text" id="c_money" class="form-control"
+                                   value="<?php echo $course_data['price'] ?>"
+                                   readonly>
+                        </div>
+
+                        <?php
+                        $add_amu = '';
+                        $paid_amu = '';
+                        $installment_option = '';
+                        foreach ($offline_payment_data as $off_data) {
+                            if ($paid_amu == '') {
+                                $paid_amu = $off_data['amount'];
+                            } else {
+                                $paid_amu = $paid_amu . "+" . $off_data['amount'];
+                            }
+                            $add_amu = $add_amu + $off_data['amount'];
+                            $installment_option = $off_data['payment_option'];
+
+                        }
+                        ?>
+                        <div class="form-group" id="input">
+                            <label for="paid_money"><?php echo get_phrase('paid_amount'); ?></label>
+                            <input type="text" id="paid_money" class="form-control"
+                                   value="<?php echo ($add_amu > $offline_payment_data[0]['amount']) ? " $paid_amu = $add_amu " : $paid_amu ?>"
+                                   readonly>
+                        </div>
+
+                        <div class="form-group" id="input">
+                            <label for="p_money"><?php echo get_phrase('total_payable_amount'); ?></label>
+                            <input type="text" id="p_money" class="form-control"
+                                   value="<?php echo $course_data['price'] - $add_amu ?>"
+                                   readonly>
+                        </div>
+                        <div class="form-group" id="select">
+                            <label for="course_id"><?php echo get_phrase('Parcel_payment'); ?><span
+                                        class="required">*</span> </label>
+                            <select class="form-control" id="installment_payment" name="installment_payment" required>
+                                <option value="3" selected>
+                                    Parcel Amount
+                                </option>
+                            </select>
+                        </div>
+                        <div class="form-group" id="select_money">
+                            <label for="c_money"><?php echo get_phrase('pay_amount'); ?><span
+                                        class="required">*</span> </label>
+                            <input type="number" id="inst_money" class="form-control"
+                                   placeholder="<?php echo $course_data['price'] - $add_amu ?>"
+                                   name="installment_money" required>
+                        </div>
+                        <input type="hidden" name="tr_num"
+                               value="<?= $offline_payment_data[0]['tr_num'] ?>">
+
+                        <button type="button" class="btn btn-primary"
+                                onclick="checkRequiredFields()"><?php echo get_phrase('repay_installment'); ?></button>
+                    </form>
+                </div>
+            </div> <!-- end card body-->
+        </div> <!-- end card -->
+    </div><!-- end col-->
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script>
+    document.addEventListener('contextmenu', event => event.preventDefault());
+</script>
