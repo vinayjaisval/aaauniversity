@@ -98,7 +98,7 @@
             right: 0;
             /*padding: -82px;*/
             top: -37px;
-            left: 447px;
+            left: 409px;
             font-size: 21px;
             color: #00266c;
             background: none;
@@ -114,7 +114,7 @@
         .home_header.fa.fa-search {
             position: relative;
             top: -37px;
-            left: 290px;
+            left: 409px;
             font-size: 21px;
             color: #00266c;
             background: none;
