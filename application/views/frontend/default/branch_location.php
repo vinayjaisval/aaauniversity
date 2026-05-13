@@ -161,7 +161,7 @@ foreach ($branch as $branch_data) {
 
                         // Title that occurs over
                         // web share dialog
-                        title: 'Ekon Academy',
+                        title: 'AAA University',
 
                         // URL to share
                         url: 'https://ekonacademy.com/'
@@ -253,7 +253,7 @@ foreach ($branch as $branch_data) {
 
                     // Title that occurs over
                     // web share dialog
-                    title: 'Ekon Academy',
+                    title: 'AAA University',
 
                     // URL to share
                     url: 'https://geeksforgeeks.org'

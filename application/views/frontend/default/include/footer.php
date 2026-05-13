@@ -32,7 +32,7 @@
                                      alt="Corporate Logo">
                             </a>
                         </div>
-                        <p class="description">The Ekon Academy is an initiative of Ekon Solutions India Pvt Ltd that
+                        <p class="description">The AAA University is an initiative of Ekon Solutions India Pvt Ltd that
                             provides learning opportunities for students and professionals in tier 2-3 cities and rural
                             areas of India. We provide comprehensive learning options, hands-on projects, & courses with
                             guaranteed placement assistance.</p>
@@ -140,7 +140,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner text-center">
-                        <p>Copyright 2022 <a href="https://ekonacademy.com/" target="_blank">Ekon Academy</a> Designed
+                        <p>Copyright 2022 <a href="https://ekonacademy.com/" target="_blank">AAA University</a> Designed
                             By <a href="https://www.ekonindia.com/" target="_blank"> EKON Solutions India Private
                                 Limited</a>. All Rights Reserved</p>
                     </div>

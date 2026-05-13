@@ -311,7 +311,7 @@ h3{
                     <i class="icon-19"></i>
                   </span>
                     <p>Enroll in one of our courses now and join the thousands of successful students who have found
-                        their dream jobs through Ekon Academy.</p>
+                        their dream jobs through AAA University.</p>
                 </div>
             </div>
         </div>
@@ -688,13 +688,13 @@ h3{
                                 <h5 class="accordion-header">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseOne" aria-expanded="true">
-                                        What is Ekon Academy?
+                                        What is AAA University?
                                     </button>
                                 </h5>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                      data-bs-parent="#faq-accordion">
                                     <div class="accordion-body">
-                                       <p> Ekon Academy is an initiative of Ekon Solutions India Pvt Ltd that provides learning opportunities to students and professionals in tier 2-3 cities and rural areas of India. We provide comprehensive learning options, hands-on projects, & courses with guaranteed placement assistance. We train candidates and connect them with related job openings after they fulfil the skill requirement. Ekon academy empowers students and professionals to take on any challenges their profession demands.</p>
+                                       <p> AAA University is an initiative of Ekon Solutions India Pvt Ltd that provides learning opportunities to students and professionals in tier 2-3 cities and rural areas of India. We provide comprehensive learning options, hands-on projects, & courses with guaranteed placement assistance. We train candidates and connect them with related job openings after they fulfil the skill requirement. AAA University empowers students and professionals to take on any challenges their profession demands.</p>
                                     </div>
                                 </div>
                             </div>
@@ -708,7 +708,7 @@ h3{
                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                      data-bs-parent="#faq-accordion">
                                     <div class="accordion-body">
-                                        <p>On Ekon academy, learning is easy. Browse www.ekonacademy.com
+                                        <p>On AAA University, learning is easy. Browse www.ekonacademy.com
                                             and search for the course that you want to take. Buy the course
                                             and log in to the portal with the username and password you got
                                             in the confirmation email. You will get an email containing information
@@ -721,13 +721,13 @@ h3{
                                 <h5 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseThree" aria-expanded="false">
-                                        Where are the branches of Ekon Academy located?
+                                        Where are the branches of AAA University located?
                                     </button>
                                 </h5>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                      data-bs-parent="#faq-accordion">
                                     <div class="accordion-body">
-                                       <p>We offer classes in hybrid mode (both offline and online). Head office of Ekon academy is located at Noida and We are expanding in various states across the country. Especially in tier 2 and rural areas, to provide equal opportunities for upskilling.
+                                       <p>We offer classes in hybrid mode (both offline and online). Head office of AAA University is located at Noida and We are expanding in various states across the country. Especially in tier 2 and rural areas, to provide equal opportunities for upskilling.
                                             <br>
                                             Right now we are at:
                                             <li>Gorakhpur</li>
@@ -740,7 +740,7 @@ h3{
                                 <h5 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseFour" aria-expanded="false">
-                                        What makes Ekon Academy different from other  e-learning platforms?
+                                        What makes AAA University different from other  e-learning platforms?
                                     </button>
                                 </h5>
                                 <div id="collapseFour" class="accordion-collapse collapse"
@@ -755,7 +755,7 @@ h3{
                                 <h5 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseFive" aria-expanded="false">
-                                        What are the benefits of taking courses on Ekon Academy?
+                                        What are the benefits of taking courses on AAA University?
                                     </button>
                                 </h5>
                                 <div id="collapseFive" class="accordion-collapse collapse"
@@ -975,7 +975,7 @@ h3{
                 <div class="col-lg-6">
                     <div class="section-title section-left" data-sal-delay="150" data-sal="slide-up"
                          data-sal-duration="800">
-                        <h2 class="title">Get Your Quality <br> Skills Certificate Through <br> Ekon Academy</h2>
+                        <h2 class="title">Get Your Quality <br> Skills Certificate Through <br> AAA University</h2>
 <!--                        <a href="contact.php" class="edu-btn btn-secondary">Get started now <i class="icon-4"></i></a>-->
                     </div>
                 </div>
