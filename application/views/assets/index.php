@@ -129,7 +129,7 @@
                           <div class="container-fluid px-0">
                             <!-- Header Logo Start -->
                             <a class="navbar-brand" href="#">
-                                <img src="assets/frontend/default/assets/elogo.png" alt="">
+                                <img src="assets/frontend/default/assets/unilogo.png" alt="">
                             </a>                           
                             <button class="navbar-toggler navbar-toggler-2 mobile-menu-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="toggler-icon"></span>

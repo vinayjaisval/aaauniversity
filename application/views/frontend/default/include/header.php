@@ -13,10 +13,7 @@
     <link name="favicon" type="image/x-icon"
           href="<?php echo base_url('uploads/system/' . get_frontend_settings('favicon')); ?>" rel="shortcut icon"/>
 
-    <!--    <link rel="shortcut icon" type="image/x-icon"-->
-    <!--          href="--><?php //echo base_url() . 'assets/frontend/default/assets/images/favicon.png' ?><!--">-->
-    <!-- CSS
-    ============================================ -->
+    
 
 
     <link rel="stylesheet"
@@ -251,7 +248,7 @@ $user_details = $this->user_model->get_user($this->session->userdata('user_id'))
                         <div class="logo">
                             <a href="<?php echo base_url() ?>">
                                 <img class="logo-light"
-                                     src="<?php echo base_url('assets/frontend/default/assets/elogo.png') ?>"
+                                     src="<?php echo base_url('assets/frontend/default/assets/unilogo.png') ?>"
                                      alt=" Logo" style="height: 83px;">
                                 <!--<img class="logo-dark" src=""<?php echo base_url() . 'assets/frontend/default/assets/images/logo/logo-white.png' ?>" alt="Corporate Logo">-->
                             </a>
@@ -531,10 +528,10 @@ $user_details = $this->user_model->get_user($this->session->userdata('user_id'))
                     <div class="logo">
                         <a href="<?php echo base_url() ?>">
                             <img class="logo-light"
-                                 src="<?php echo base_url() . 'assets/frontend/default/assets/elogo.png' ?>"
+                                 src="<?php echo base_url() . 'assets/frontend/default/assets/unilogo.png' ?>"
                                  alt="Corporate Logo">
                             <img class="logo-dark"
-                                 src="<?php echo base_url() . 'assets/frontend/default/assets/elogo.png' ?>"
+                                 src="<?php echo base_url() . 'assets/frontend/default/assets/unilogo.png' ?>"
                                  alt="Corporate Logo">
                         </a>
                     </div>
@@ -596,8 +593,8 @@ $user_details = $this->user_model->get_user($this->session->userdata('user_id'))
         <div class="edu-search-popup">
             <div class="content-wrap">
                 <!-- <div class="site-logo">
-                        <img class="logo-light" src=""<?php echo base_url() . 'assets/frontend/default/assets/elogo.png' ?>" alt="Corporate Logo">
-                        <img class="logo-dark" src=""<?php echo base_url() . 'assets/frontend/default/assets/elogo.png' ?>"alt="Corporate Logo">
+                        <img class="logo-light" src=""<?php echo base_url() . 'assets/frontend/default/assets/unilogo.png' ?>" alt="Corporate Logo">
+                        <img class="logo-dark" src=""<?php echo base_url() . 'assets/frontend/default/assets/unilogo.png' ?>"alt="Corporate Logo">
                     </div> -->
                 <div class="close-button">
                     <button class="close-trigger"><i class="icon-73"></i></button>

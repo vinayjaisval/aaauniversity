@@ -21,7 +21,7 @@ $this->load->view('frontend/default/include/header');
     <div style="margin: 90px; text-align: center;">
         <header class="site-header" id="header">
             <center><a href="<?php echo base_url()?>">
-                    <img src="<?php echo base_url('assets/frontend/default/assets/elogo.png') ?>" style="height: 100px;"/> </a></center>
+                    <img src="<?php echo base_url('assets/frontend/default/assets/unilogo.png') ?>" style="height: 100px;"/> </a></center>
             <br>
             <h1 style="color: green" class="site-header_title animateanimated animate_backInDown " data-lead-id="site-header-title">THANK
                 YOU!</h1>
@@ -45,7 +45,7 @@ $this->load->view('frontend/default/include/header');
         <header class="site-header" id="header">
             <center>
                 <a href="https://ekonacademy.com/">
-                    <img  src="<?php echo base_url('assets/frontend/default/assets/elogo.png') ?>" style="height: 100px;"/>
+                    <img  src="<?php echo base_url('assets/frontend/default/assets/unilogo.png') ?>" style="height: 100px;"/>
                 </a>
             </center>
             <br>
