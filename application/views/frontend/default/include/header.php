@@ -13,8 +13,6 @@
     <link name="favicon" type="image/x-icon"
           href="<?php echo base_url('assets/frontend/default/assets/unilogo.png' ); ?>" rel="shortcut icon"/>
 
-    
-
 
     <link rel="stylesheet"
           href="<?php echo base_url() . 'assets/frontend/default/assets/css/vendor/bootstrap.min.css' ?>">
@@ -38,9 +36,6 @@
     <link rel="stylesheet" href="<?php echo base_url() . 'assets/frontend/default/assets/css/app.css' ?>">
     <link rel="stylesheet" href="<?php echo base_url() . 'assets/frontend/default/assets/css/app.css' ?>">
     <link rel="stylesheet" href="<?php echo base_url() . 'assets/frontend/default/assets/css/custom.css' ?>">
-
-
-    <!-- Font awesome-->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -250,7 +245,7 @@ $user_details = $this->user_model->get_user($this->session->userdata('user_id'))
                                 <img class="logo-light"
                                      src="<?php echo base_url('assets/frontend/default/assets/unilogo.png') ?>"
                                      alt=" Logo" style="height: 83px;">
-                                <!--<img class="logo-dark" src=""<?php echo base_url() . 'assets/frontend/default/assets/images/logo/logo-white.png' ?>" alt="Corporate Logo">-->
+                              
                             </a>
                         </div>
                         <div class="header-category">
@@ -265,7 +260,7 @@ $user_details = $this->user_model->get_user($this->session->userdata('user_id'))
                                             <?php
                                             $categories = $this->crud_model->get_categories()->result_array();
                                             foreach ($categories as $key => $category):
-//                                                    $icon = $this->crud_model->course_icon_by_id($category['id'])
+                                                // $icon = $this->crud_model->course_icon_by_id($category['id'])
                                                 ?>
                                                 <li>
                                                     <a href="<?php echo site_url('home/courses?category=' . $category['slug']); ?>">
@@ -322,12 +317,7 @@ $user_details = $this->user_model->get_user($this->session->userdata('user_id'))
                                     <i class="icon-2"></i>
                                 </a>
                             </li>
-                            <!--  <li class="icon cart-icon">
-                                <a href="cart.html" class="cart-icon">
-                                    <i class="icon-3"></i>
-                                    <span class="count">0</span>
-                                </a>
-                            </li> -->
+                            
                             <?php if ($this->session->userdata('user_login')) { ?>
                                 <li class="icon cart-icon" style="padding-left: 20px">
                                     <a href="<?php echo base_url('home/add_cart') ?>" class="cart-icon">
@@ -567,13 +557,7 @@ $user_details = $this->user_model->get_user($this->session->userdata('user_id'))
                                     &nbsp; All Courses
                                 </a>
                             </li>
-                            <!--                            <li><a href="course.php">Digital Marketing</a></li>-->
-                            <!--                            <li><a href="course.php"> Data Science</a></li>-->
-                            <!--                            <li><a href="course.php"> Web Development</a></li>-->
-                            <!--                            <li><a href="course.php"> open Course</a></li>-->
-                            <!--                            <li><a href="course.php"> Artificial Inteligence </a></li>-->
-                            <!--                            <li><a href="course.php"> Core Technology </a></li>-->
-                            <!--                            <li><a href="course.php"> Languages </a></li>-->
+                            
                         </ul>
                     </li>
 
@@ -582,21 +566,15 @@ $user_details = $this->user_model->get_user($this->session->userdata('user_id'))
 
                     </li>
 
-                    <!--                    <li><a href="blog.php">Blog</a>-->
-                    <!--                    </li>-->
-                    <!--                    <li><a href="contact.php">Contact</a>-->
-                    <!--                    </li>-->
                 </ul>
             </div>
         </div>
         <!-- Start Search Popup  -->
         <div class="edu-search-popup">
             <div class="content-wrap">
-                <!-- <div class="site-logo">
-                        <img class="logo-light" src=""<?php echo base_url() . 'assets/frontend/default/assets/unilogo.png' ?>" alt="Corporate Logo">
-                        <img class="logo-dark" src=""<?php echo base_url() . 'assets/frontend/default/assets/unilogo.png' ?>"alt="Corporate Logo">
-                    </div> -->
-                <div class="close-button">
+               
+               
+                    <div class="close-button">
                     <button class="close-trigger"><i class="icon-73"></i></button>
                 </div>
                 <div class="inner">
