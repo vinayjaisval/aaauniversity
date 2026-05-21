@@ -178,7 +178,7 @@ $course_details = $this->crud_model->get_course_by_id($course_id)->row_array();
                                 <div class="course-curriculam">
                                     <h3 class="heading-title">Course Curriculum</h3>
                                     <div class="course-lesson">
-                                        <h5 class="title">Week 1-4</h5>
+                                        <!-- <h5 class="title">Week 1-4</h5> -->
                                         <!--<p>Advanced story telling techniques for writers: Personas, Characters &-->
                                         <!--    Plots</p>-->
                                         <ul>
