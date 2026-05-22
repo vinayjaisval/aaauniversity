@@ -249,13 +249,13 @@ if ($_SESSION['user_login']) {
 ?>
  <script>
             window.ityped.init(document.querySelector('.ityped'),{
-                strings: ['Python Course: Only for 2999 ',' Screenwriting and Creative Writing   ','Personality Development  ',],
+                strings: [' Diploma In Cyber Security   ','Diploma In Cyber forensic  ','Diploma In Cyber Security Audit', 'SOC'],
                 loop: true
             })
     </script>
     <script>
             // array to store strings
-            var poem = ["100% Job Placements (Python).","Free Webinars ","Free Sessions for PD & PC",];
+            var poem = ["100% Job Placements.","Free Sessions for PD & PC",];
             var i = 0;
             // text animation loop
             var animInterval = window.setInterval(
