@@ -564,7 +564,7 @@ h3{
                                             }
 
                                             for ($i = 1; $i < 6; $i++):?>
-                                                <?php if ($i <= $average_ceil_rating): ?>
+                                                <?php if ($i >= $average_ceil_rating): ?>
                                                     <i class="icon-23" style="color: #f8b81f"></i>
                                                 <?php else: ?>
                                                     <i class="icon-23" style="color: #dcd6d6;"></i>
@@ -575,7 +575,7 @@ h3{
                                         </div>
                                         <span class="rating-count">( <?php echo ($total_rating == "") ? 0 : $total_rating; ?>.0 / 5 Rating)</span>
                                     </div>
-                                    <ul class="course-meta">
+                                    <!-- <ul class="course-meta">
                                         <li><i class="icon-24"></i>
                                             <?php
                                             $number_of_lessons = $this->crud_model->get_lessons('course', $top_course['id'])->num_rows();
@@ -588,7 +588,7 @@ h3{
                                             echo $number_of_students . " Students";
                                             ?>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
                             </div>
                         </div>
