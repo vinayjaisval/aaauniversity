@@ -249,7 +249,7 @@ if ($_SESSION['user_login']) {
 ?>
  <script>
             window.ityped.init(document.querySelector('.ityped'),{
-                strings: [' Diploma In Cyber Security   ','Diploma In Cyber forensic  ','Diploma In Cyber Security Audit', 'SOC'],
+                strings: [' Diploma In Cyber Security   ','Diploma In Cyber Forensic  ','Diploma In Cyber Security Audit', 'SOC'],
                 loop: true
             })
     </script>
