@@ -92,6 +92,10 @@
                                         condition</a></li>
                                 <li><a href="<?php echo base_url('home/cancellation_and_refund_policy') ?>">
                                         Cancellation and refund policy</a></li>
+                                <li><a href="<?php echo base_url('home/gallery') ?>">
+                                        Gallery</a></li>
+                                <li><a href="<?php echo base_url('home/placement_cell') ?>">
+                                        Placement Cell</a></li>
                             </ul>
                         </div>
                     </div>

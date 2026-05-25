@@ -116,12 +116,12 @@
         <?php }else{?>
         .home_header.fa.fa-search {
             position: relative;
-            top: -37px;
-            left: 290px;
+            top: -35px;
+            left: 386px;
             font-size: 21px;
             color: #00266c;
             background: none;
-            border: none
+            border: none;
         }
 
         input[type="search"] {
