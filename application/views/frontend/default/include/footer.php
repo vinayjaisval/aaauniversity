@@ -96,6 +96,14 @@
                                         Gallery</a></li>
                                 <li><a href="<?php echo base_url('home/placement_cell') ?>">
                                         Placement Cell</a></li>
+
+                                         <li >
+                                    <a href="<?php echo base_url('home/branches'); ?>"
+                                     >
+                                        
+                                        Ours Branches</a>
+                                </li>
+
                             </ul>
                         </div>
                     </div>
