@@ -200,31 +200,23 @@ h3{
     <div class="container">
         <div class="brand-grid-wrap brand-style-2">
             <div class="brand-grid">
-                <img src="<?php echo base_url() . 'assets/frontend/default/assets/images/brand/brand-01.png' ?>"
+                <img src="<?php echo base_url() . 'assets/frontend/default/assets/images/brand/brand-14.png' ?>"
                      alt="Brand Logo">
             </div>
             <div class="brand-grid">
-                <img src="<?php echo base_url() . 'assets/frontend/default/assets/images/brand/brand-02.png' ?>"
+                <img src="<?php echo base_url() . 'assets/frontend/default/assets/images/brand/brand-15.png' ?>"
                      alt="Brand Logo">
             </div>
             <div class="brand-grid">
-                <img src="<?php echo base_url() . 'assets/frontend/default/assets/images/brand/brand-03.png' ?>"
+                <img src="<?php echo base_url() . 'assets/frontend/default/assets/images/brand/brand-16.png' ?>"
                      alt="Brand Logo">
             </div>
             <div class="brand-grid">
-                <img src="<?php echo base_url() . 'assets/frontend/default/assets/images/brand/brand-04.png' ?>"
+                <img src="<?php echo base_url() . 'assets/frontend/default/assets/images/brand/brand-17.png' ?>"
                      alt="Brand Logo">
             </div>
             <div class="brand-grid">
-                <img src="<?php echo base_url() . 'assets/frontend/default/assets/images/brand/brand-05.png' ?>"
-                     alt="Brand Logo">
-            </div>
-            <div class="brand-grid">
-                <img src="<?php echo base_url() . 'assets/frontend/default/assets/images/brand/brand-06.png' ?>"
-                     alt="Brand Logo">
-            </div>
-            <div class="brand-grid">
-                <img src="<?php echo base_url() . 'assets/frontend/default/assets/images/brand/net.png' ?>"
+                <img src="<?php echo base_url() . 'assets/frontend/default/assets/images/brand/brand-18.png' ?>"
                      alt="Brand Logo">
             </div>
         </div>
