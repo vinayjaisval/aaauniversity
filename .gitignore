@@ -1,3 +1,15 @@
+# Stripe documentation
 application/libraries/Stripe/README.md
+
+# SQL install file
 uploads/install.sql
+
+# Environment file
 .env
+
+# CodeIgniter config files
+application/config/config.php
+application/config/database.php
+
+# Apache config
+.htaccess

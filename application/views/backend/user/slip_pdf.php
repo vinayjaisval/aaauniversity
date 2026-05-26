@@ -26,7 +26,7 @@ $user = $this->user_model->get_all_user($pdf_data[0]['user_id'])->result_array()
 <!--        -->
 </div>
 
-<img src="<?php echo base_url('assets/frontend/default/assets/elogo.png') ?>"
+<img src="<?php echo base_url('assets/frontend/default/assets/unilogo.png') ?>"
      style="width:100px;text-align: center; scroll-margin-top: 20px;position: relative;top: 25px"/>
 
 

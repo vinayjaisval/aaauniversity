@@ -78,7 +78,7 @@ h3{
     <div class="container edublink-animated-shape">
         <div class="row align-items-center">
             <div class="col-lg-6">
-            <h3  id="text" class="blink">100% job placements (Python). </h3>
+            <h3  id="text" class="blink">100% job placements. </h3>
                 <div class="banner-content">
                     <h2 class="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">
                         Courses that<span class="skl"> Upskill</span> You. <br>
@@ -90,12 +90,12 @@ h3{
                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
  <!------Dynamic Slider------>
                            <div class="carousel-indicators">
-    <?php
-    $i=0;
-    $banner = $this->crud_model->get_all_banner()->result_array();       
-    foreach ($banner as $key => $banner_data) {
-      
-  ?>
+                    <?php
+                    $i=0;
+                    $banner = $this->crud_model->get_all_banner()->result_array();       
+                    foreach ($banner as $key => $banner_data) {
+                    
+                ?>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="<?=$i;?>" <?php if($i==0){ ?> class="active" aria-current="true" <?php } ?>  aria-label="Slide <?=$i;?>"></button>
       <?php ++$i; } ?>
      
@@ -120,30 +120,7 @@ h3{
  
   
   </div> 
-   <!----------End Dynamic Slider------------>
-  <!-- static slider--->
-  <!-- <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    
-    <div class="carousel-item active">
-
-    <img src="<?php echo base_url() ?>/assets/frontend/default/assets/images/banner/ddddddd-01.png"  
-                             alt="vactor Image" class="imgbnr" >
-    </div>
-
-    <div class="carousel-item">
-                <img  src="<?php echo base_url() ?>/assets/frontend/default/assets/images/banner/ddddddd-02.png" 
-                             alt="vactor Image" class="imgbnr" > </div>
-    <div class="carousel-item">
-   <img  src="<?php echo base_url() ?>/assets/frontend/default/assets/images/banner/ddddddd-03.png" 
-                             alt="vactor Image" class="imgbnr" > </div>
-  
-  </div> -->
-  <!----End Static Slider----->
+ 
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
@@ -311,7 +288,7 @@ h3{
                     <i class="icon-19"></i>
                   </span>
                     <p>Enroll in one of our courses now and join the thousands of successful students who have found
-                        their dream jobs through Ekon Academy.</p>
+                        their dream jobs through AAA University.</p>
                 </div>
             </div>
         </div>
@@ -365,7 +342,7 @@ h3{
                                         }
 
                                         for ($i = 1; $i < 6; $i++):?>
-                                            <?php if ($i <= $average_ceil_rating): ?>
+                                            <?php if ($i >= $average_ceil_rating): ?>
                                                 <i class="icon-23" style="color: #f8b81f"></i>
                                             <?php else: ?>
                                                 <i class="icon-23" style="color: #dcd6d6;"></i>
@@ -373,7 +350,7 @@ h3{
                                         <?php endfor; ?>
                                         <div class="rating">
                                         </div>
-                                        <span class="rating-count">( <?php echo ($total_rating == "") ? 0 : $total_rating; ?>.0 / 5 Rating)</span>
+                                        <span class="rating-count">( 5.0 / 5 Rating)</span>
                                     </div>
                                 </div>
                             </div>
@@ -398,7 +375,7 @@ h3{
                                         }
 
                                         for ($i = 1; $i < 6; $i++):?>
-                                            <?php if ($i <= $average_ceil_rating): ?>
+                                            <?php if ($i >= $average_ceil_rating): ?>
                                                 <i class="icon-23" style="color: #f8b81f"></i>
                                             <?php else: ?>
                                                 <i class="icon-23" style="color: #dcd6d6;"></i>
@@ -406,18 +383,18 @@ h3{
                                         <?php endfor; ?>
                                         <div class="rating">
                                         </div>
-                                        <span class="rating-count">( <?php echo ($total_rating == "") ? 0 : $total_rating; ?>.0 / 5 Rating)</span>
+                                        <span class="rating-count">( 5.0 / 5 Rating)</span>
                                     </div>
                                     <ul class="course-meta">
-                                        <li>
+                                        <!-- <li>
                                             <?php
                                             $number_of_lessons = $this->crud_model->get_lessons('course', $course['id'])->num_rows();
                                             echo $number_of_lessons . " Lessons";
                                             ?>
-                                        </li>
-                                        <li>
+                                        </li> -->
+                                        <!-- <li>
                                             <?php echo $this->crud_model->get_total_duration_of_lesson_by_course_id($course['id']); ?>
-                                        </li>
+                                        </li> -->
 <!--                                        <li>All Levels</li>-->
                                     </ul>
                                     <div class="course-feature">
@@ -587,7 +564,7 @@ h3{
                                             }
 
                                             for ($i = 1; $i < 6; $i++):?>
-                                                <?php if ($i <= $average_ceil_rating): ?>
+                                                <?php if ($i >= $average_ceil_rating): ?>
                                                     <i class="icon-23" style="color: #f8b81f"></i>
                                                 <?php else: ?>
                                                     <i class="icon-23" style="color: #dcd6d6;"></i>
@@ -598,7 +575,7 @@ h3{
                                         </div>
                                         <span class="rating-count">( <?php echo ($total_rating == "") ? 0 : $total_rating; ?>.0 / 5 Rating)</span>
                                     </div>
-                                    <ul class="course-meta">
+                                    <!-- <ul class="course-meta">
                                         <li><i class="icon-24"></i>
                                             <?php
                                             $number_of_lessons = $this->crud_model->get_lessons('course', $top_course['id'])->num_rows();
@@ -611,7 +588,7 @@ h3{
                                             echo $number_of_students . " Students";
                                             ?>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
                             </div>
                         </div>
@@ -688,13 +665,13 @@ h3{
                                 <h5 class="accordion-header">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseOne" aria-expanded="true">
-                                        What is Ekon Academy?
+                                        What is AAA University?
                                     </button>
                                 </h5>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                      data-bs-parent="#faq-accordion">
                                     <div class="accordion-body">
-                                       <p> Ekon Academy is an initiative of Ekon Solutions India Pvt Ltd that provides learning opportunities to students and professionals in tier 2-3 cities and rural areas of India. We provide comprehensive learning options, hands-on projects, & courses with guaranteed placement assistance. We train candidates and connect them with related job openings after they fulfil the skill requirement. Ekon academy empowers students and professionals to take on any challenges their profession demands.</p>
+                                       <p> AAA University is an initiative of Ekon Solutions India Pvt Ltd that provides learning opportunities to students and professionals in tier 2-3 cities and rural areas of India. We provide comprehensive learning options, hands-on projects, & courses with guaranteed placement assistance. We train candidates and connect them with related job openings after they fulfil the skill requirement. AAA University empowers students and professionals to take on any challenges their profession demands.</p>
                                     </div>
                                 </div>
                             </div>
@@ -708,7 +685,7 @@ h3{
                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                      data-bs-parent="#faq-accordion">
                                     <div class="accordion-body">
-                                        <p>On Ekon academy, learning is easy. Browse www.ekonacademy.com
+                                        <p>On AAA University, learning is easy. Browse www.ekonacademy.com
                                             and search for the course that you want to take. Buy the course
                                             and log in to the portal with the username and password you got
                                             in the confirmation email. You will get an email containing information
@@ -721,13 +698,13 @@ h3{
                                 <h5 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseThree" aria-expanded="false">
-                                        Where are the branches of Ekon Academy located?
+                                        Where are the branches of AAA University located?
                                     </button>
                                 </h5>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                      data-bs-parent="#faq-accordion">
                                     <div class="accordion-body">
-                                       <p>We offer classes in hybrid mode (both offline and online). Head office of Ekon academy is located at Noida and We are expanding in various states across the country. Especially in tier 2 and rural areas, to provide equal opportunities for upskilling.
+                                       <p>We offer classes in hybrid mode (both offline and online). Head office of AAA University is located at Noida and We are expanding in various states across the country. Especially in tier 2 and rural areas, to provide equal opportunities for upskilling.
                                             <br>
                                             Right now we are at:
                                             <li>Gorakhpur</li>
@@ -740,7 +717,7 @@ h3{
                                 <h5 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseFour" aria-expanded="false">
-                                        What makes Ekon Academy different from other  e-learning platforms?
+                                        What makes AAA University different from other  e-learning platforms?
                                     </button>
                                 </h5>
                                 <div id="collapseFour" class="accordion-collapse collapse"
@@ -755,7 +732,7 @@ h3{
                                 <h5 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseFive" aria-expanded="false">
-                                        What are the benefits of taking courses on Ekon Academy?
+                                        What are the benefits of taking courses on AAA University?
                                     </button>
                                 </h5>
                                 <div id="collapseFive" class="accordion-collapse collapse"
@@ -975,7 +952,7 @@ h3{
                 <div class="col-lg-6">
                     <div class="section-title section-left" data-sal-delay="150" data-sal="slide-up"
                          data-sal-duration="800">
-                        <h2 class="title">Get Your Quality <br> Skills Certificate Through <br> Ekon Academy</h2>
+                        <h2 class="title">Get Your Quality <br> Skills Certificate Through <br> AAA University</h2>
 <!--                        <a href="contact.php" class="edu-btn btn-secondary">Get started now <i class="icon-4"></i></a>-->
                     </div>
                 </div>

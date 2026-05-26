@@ -446,11 +446,11 @@
                                 <td class="content-cell">
                                     <div class="f-fallback">
                                         <div style="width: 100%; margin-bottom: 10px; text-align: center;">
-                                            <!--                                                  http://192.168.1.23/application/assets/frontend/default/assets/elogo.png-->
+                                            <!--                                                  http://192.168.1.23/application/assets/frontend/default/assets/unilogo.png-->
                                             <!--                                                <img src="-->
                                             <? //= base_url('uploads/system/'.get_frontend_settings('dark_logo')); ?><!--" style="width: 300px;">-->
                                             <a href="<?php echo base_url();?>">
-                                                <img src="<?php echo base_url('assets/frontend/default/assets/elogo.png');?>"
+                                                <img src="<?php echo base_url('assets/frontend/default/assets/unilogo.png');?>"
                                                      style="width: 300px;">
                                             </a>
                                         </div>

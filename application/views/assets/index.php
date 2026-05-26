@@ -9,7 +9,7 @@
     <meta name="author" content="">
 
     <!--====== Title ======-->
-    <title>Ekon Academy</title>
+    <title>AAA University</title>
 
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="<?php echo base_url() . 'assets/landing/images/favicon.png ' ?>">
@@ -129,7 +129,7 @@
                           <div class="container-fluid px-0">
                             <!-- Header Logo Start -->
                             <a class="navbar-brand" href="#">
-                                <img src="assets/frontend/default/assets/elogo.png" alt="">
+                                <img src="assets/frontend/default/assets/unilogo.png" alt="">
                             </a>                           
                             <button class="navbar-toggler navbar-toggler-2 mobile-menu-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="toggler-icon"></span>
@@ -290,7 +290,7 @@ if ($this->session->tempdata('success')){
                                 <p class="wow fadeInUp" data-wow-delay=".4s">
                                We believe that everyone has the right to upgrade themselves and improve their future.</p>
 
-                                <p class="wow fadeInUp" data-wow-delay=".6s">Ekon Academy, a venture of Ekon Solutions India Pvt Ltd, was established to provide students in tier 2, tier 3 cities and rural areas with the same quality training as their counterparts in metropolitan and Tier 1 cities. We offer a range of popular courses in IT sector, empowering students and professionals to upskill themselves and prepare for tough competition. We offer comprehensive learning options, hands-on projects, and courses with guaranteed placement assistance.
+                                <p class="wow fadeInUp" data-wow-delay=".6s">AAA University, a venture of Ekon Solutions India Pvt Ltd, was established to provide students in tier 2, tier 3 cities and rural areas with the same quality training as their counterparts in metropolitan and Tier 1 cities. We offer a range of popular courses in IT sector, empowering students and professionals to upskill themselves and prepare for tough competition. We offer comprehensive learning options, hands-on projects, and courses with guaranteed placement assistance.
 We have a team of experienced and highly qualified trainers who are passionate about teaching and providing quality education. Our state-of-the-art facilities and modern infrastructure provide the most conducive environment for learning and growth.
 </p>
                                 
@@ -413,7 +413,7 @@ We have a team of experienced and highly qualified trainers who are passionate a
         <div class="container">
             <!-- Features Wrapper Start -->
              <div class="section-title apps-connect-2-title text-center">
-                <h2 class="title" style="color:#02226a">  Ekon Academy  <span style="color:#ff6bd5">Mission ,vision ,Value </span></h2>
+                <h2 class="title" style="color:#02226a">  AAA University  <span style="color:#ff6bd5">Mission ,vision ,Value </span></h2>
 
              </div>
                         <br>
@@ -477,7 +477,7 @@ We have a team of experienced and highly qualified trainers who are passionate a
                                         <!-- Single Testimonial Start -->
                                             <div class="testimonial-text testimonial-2-text">
                                                 <i class="flaticon-left-quote"></i>
-                                                <p>I took the Digital marketing course with Ekon academy and I can honestly say it was one of the best experiences I've ever had. The course was incredibly well-structured and designed to upskill me in this field. My instructor was incredibly nice and helpful, and Ekon Academy provided 100% placement assistance. I would highly recommend Ekon Academy to anyone looking for a placement-oriented Digital marketing course.</p>
+                                                <p>I took the Digital marketing course with AAA University and I can honestly say it was one of the best experiences I've ever had. The course was incredibly well-structured and designed to upskill me in this field. My instructor was incredibly nice and helpful, and AAA University provided 100% placement assistance. I would highly recommend AAA University to anyone looking for a placement-oriented Digital marketing course.</p>
                                                 <h4 class="name">Harsh Bharadwaj</h4>
                                                 <span class="designation">Placed at Georgian College, Canada</span>
                                             </div>
@@ -487,7 +487,7 @@ We have a team of experienced and highly qualified trainers who are passionate a
                                         <!-- Single Testimonial Start -->
                                             <div class="testimonial-text testimonial-2-text">
                                                 <i class="flaticon-left-quote"></i>
-                                                <p>I truly enjoyed taking the Python Language course at Ekon academy. The instructors were excellent, offering a wealth of knowledge and making the learning process enjoyable. The curriculum was comprehensive and well organised. The placement assistance provided by Ekon academy helped me to secure a job soon after completing the course. I highly recommend this course to anyone interested in pursuing a career in Python development.</h4>
+                                                <p>I truly enjoyed taking the Python Language course at AAA University. The instructors were excellent, offering a wealth of knowledge and making the learning process enjoyable. The curriculum was comprehensive and well organised. The placement assistance provided by AAA University helped me to secure a job soon after completing the course. I highly recommend this course to anyone interested in pursuing a career in Python development.</h4>
                                                 <span class="designation">Placed at Fleming College, Canada</span>
                                             </div>
                                         <!-- Single Testimonial End -->   
@@ -496,7 +496,7 @@ We have a team of experienced and highly qualified trainers who are passionate a
                                         <!-- Single Testimonial Start -->
                                             <div class="testimonial-text testimonial-2-text">
                                                 <i class="flaticon-left-quote"></i>
-                                                <p>I am sharing my experience at Ekon Academy's Full Stack PHP Development course. The program was comprehensive and well-structured, covering all aspects of PHP development. The trainers were knowledgeable and supportive, providing hands-on practical sessions. The 100% placement assistance offered by Ekon Academy helped me secure a job immediately after completing the course. Highly recommended!</p>
+                                                <p>I am sharing my experience at AAA University's Full Stack PHP Development course. The program was comprehensive and well-structured, covering all aspects of PHP development. The trainers were knowledgeable and supportive, providing hands-on practical sessions. The 100% placement assistance offered by AAA University helped me secure a job immediately after completing the course. Highly recommended!</p>
                                                 <h4 class="name">Aishwarya Varadhrajan</h4>
                                                 <span class="designation">Placed at Bologna University, Italy</span>
                                             </div>

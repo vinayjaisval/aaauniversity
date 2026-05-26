@@ -616,8 +616,9 @@ class Crud_model extends CI_Model
         return json_encode($trimmed_array);
     }
 
-    public function update_course($course_id, $type = "")
+    public function update_course_old($course_id, $type = "")
     {
+      
         $course_details = $this->get_course_by_id($course_id)->row_array();
 
 
@@ -682,8 +683,8 @@ class Crud_model extends CI_Model
             }
         }
 
-//         print_r($data['user_id']);
-//         die;
+            //         print_r($data['user_id']);
+            //         die;
 
         $data['meta_description'] = $this->input->post('meta_description');
         $data['meta_keywords'] = $this->input->post('meta_keywords');
@@ -728,6 +729,188 @@ class Crud_model extends CI_Model
         }
     }
 
+
+    public function update_course($course_id, $type = "")
+{
+    $course_details = $this->get_course_by_id($course_id)->row_array();
+
+    $outcomes = $this->trim_and_return_json($this->input->post('outcomes'));
+    $requirements = $this->trim_and_return_json($this->input->post('requirements'));
+
+    $data['title'] = $this->input->post('title');
+    $data['short_description'] = html_escape($this->input->post('short_description'));
+    $data['description'] = $this->input->post('description');
+    $data['course_duration'] = $this->input->post('course_duration');
+
+    $data['outcomes'] = $outcomes;
+    $data['language'] = $this->input->post('language_made_in');
+    $data['sub_category_id'] = $this->input->post('sub_category_id');
+
+    $category_details = $this->get_category_details_by_id(
+        $this->input->post('sub_category_id')
+    )->row_array();
+
+    $data['category_id'] = $data['sub_category_id'];
+    $data['requirements'] = $requirements;
+    $data['is_free_course'] = $this->input->post('is_free_course');
+    $data['price'] = $this->input->post('price');
+    $data['discount_flag'] = $this->input->post('discount_flag');
+    $data['discounted_price'] = $this->input->post('discounted_price');
+    $data['level'] = $this->input->post('level');
+    $data['video_url'] = $this->input->post('course_overview_url');
+
+    $old_img = $this->input->post('course_thumbnail_old');
+
+    // Thumbnail upload
+    if (isset($_FILES['course_thumbnail']) && $_FILES['course_thumbnail']['name'] != "") {
+
+        if (
+            !empty($old_img) &&
+            file_exists('uploads/thumbnails/course_thumbnails/' . $old_img)
+        ) {
+            unlink('uploads/thumbnails/course_thumbnails/' . $old_img);
+        }
+
+        $data['thumbnail'] = $this->resize_image(
+            $_FILES['course_thumbnail']['name'],
+            $_FILES['course_thumbnail']['tmp_name'],
+            "thumbnails/course_thumbnails",
+            400,
+            300
+        );
+
+    } else {
+        $data['thumbnail'] = $old_img;
+    }
+
+    // Instructor handling
+    if ($this->input->post('new_instructor')) {
+
+        $data['user_id'] = $this->input->post('new_instructor');
+
+    } else {
+
+        $value = '';
+
+        $data['user_id'] = $this->input->post('new_instructors') ?? [];
+
+        // Ensure array for PHP 8+
+        if (!is_array($data['user_id'])) {
+            $data['user_id'] = [];
+        }
+
+        foreach ($data['user_id'] as $id) {
+            $value .= $id . ',';
+        }
+
+        // Remove last comma
+        $value = rtrim($value, ',');
+
+        if (empty($value)) {
+            $data['user_id'] = $_SESSION['user_id'];
+        } else {
+            $data['user_id'] = $value;
+        }
+    }
+
+    // Course overview provider
+    if ($this->input->post('course_overview_url') != "") {
+        $data['course_overview_provider'] = html_escape(
+            $this->input->post('course_overview_provider')
+        );
+    } else {
+        $data['course_overview_provider'] = "";
+    }
+
+    $data['meta_description'] = $this->input->post('meta_description');
+    $data['meta_keywords'] = $this->input->post('meta_keywords');
+    $data['last_modified'] = strtotime(date('D, d-M-Y'));
+
+    // Top course flag
+    if ($this->input->post('is_top_course') != 1) {
+        $data['is_top_course'] = 0;
+    } else {
+        $data['is_top_course'] = 1;
+    }
+
+    // Status handling
+    if ($type == "save_to_draft") {
+
+        $data['status'] = 'draft';
+
+    } else {
+
+        if ($this->session->userdata('admin_login')) {
+            $data['status'] = 'active';
+        } else {
+            $data['status'] = $course_details['status'];
+        }
+    }
+
+    // Update database
+    $this->db->where('id', $course_id);
+    $this->db->update('course', $data);
+
+    // Upload course media files
+    $course_media_files = themeConfiguration(
+        get_frontend_settings('theme'),
+        'course_media_files'
+    );
+
+    // PHP 8 safe
+    if (!is_array($course_media_files)) {
+        $course_media_files = [];
+    }
+
+    foreach ($course_media_files as $course_media => $size) {
+
+        if (
+            isset($_FILES[$course_media]) &&
+            $_FILES[$course_media]['name']
+        ) {
+
+            $file_path =
+                'uploads/thumbnails/course_thumbnails/' .
+                $course_media . '_' .
+                get_frontend_settings('theme') . '_' .
+                $course_id . '.jpg';
+
+            if (file_exists($file_path)) {
+                unlink($file_path);
+            }
+
+            move_uploaded_file(
+                $_FILES[$course_media]['tmp_name'],
+                $file_path
+            );
+        }
+    }
+
+    // Flash messages
+    if ($data['status'] == 'active') {
+
+        $this->session->set_flashdata(
+            'flash_message',
+            get_phrase('course_updated_successfully')
+        );
+
+    } elseif ($data['status'] == 'pending') {
+
+        $this->session->set_flashdata(
+            'flash_message',
+            get_phrase('course_updated_successfully') .
+            '. ' .
+            get_phrase('please_wait_untill_Admin_approves_it')
+        );
+
+    } elseif ($data['status'] == 'draft') {
+
+        $this->session->set_flashdata(
+            'flash_message',
+            get_phrase('your_course_has_been_added_to_draft')
+        );
+    }
+}
     public function change_course_status($status = "", $course_id = "")
     {
         if ($status == 'active') {

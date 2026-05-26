@@ -1439,7 +1439,7 @@ class Home extends CI_Controller
             "amount" => $amount,
             "name" => "EKON Solutions India Private Limited. ",
             "description" => "Course Purchase",
-            "image" => base_url('assets/frontend/default/assets/elogo.png'),
+            "image" => base_url('assets/frontend/default/assets/unilogo.png'),
             "prefill" => array(
                 "name" => $user_data->first_name . " " . $user_data->last_name,
                 "email" => $user_data->email,
@@ -1826,7 +1826,7 @@ public function webinar_details($param)
             "amount" => $amount,
             "name" => "EKON Solutions India Private Limited. ",
             "description" => "Course Purchase",
-            "image" => base_url('assets/frontend/default/assets/elogo.png'),
+            "image" => base_url('assets/frontend/default/assets/unilogo.png'),
             "prefill" => array(
                 "name" => "Chancnla",
                 "email" => "ck@gmail.com",
