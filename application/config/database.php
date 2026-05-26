@@ -76,15 +76,8 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-<<<<<<< HEAD
 	'username' => 'root',
 	'password' => '',
-=======
-	'username' => 'aaauniversity',
-	'password' => 'aaauniversity!@#321',
-	// 'username' => 'root',
-	// 'password' => '',
->>>>>>> 33697f3cf8f378563f9b965ef5f71324604318bd
   //'database' => 'app1',
 	'database' => 'aaauniversity',
 	'dbdriver' => 'mysqli',

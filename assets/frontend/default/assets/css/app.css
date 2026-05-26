@@ -5405,7 +5405,7 @@ body.sal-disabled [data-sal|="flip"] {
   box-shadow: var(--shadow-darker);
 }
 .brand-grid-wrap.brand-style-2 {
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 @media only screen and (max-width: 991px) {
   .brand-grid-wrap.brand-style-2 {
