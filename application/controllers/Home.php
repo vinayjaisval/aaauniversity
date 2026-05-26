@@ -1587,6 +1587,20 @@ class Home extends CI_Controller
 
     /*************      End Chanchal Code for cancellation and refund policy    ***********/
 
+    public function gallery()
+    {
+        $page_data['page_name'] = 'gallery';
+        $page_data['page_title'] = site_phrase('gallery');
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/gallery', $page_data);
+    }
+
+    public function placement_cell()
+    {
+        $page_data['page_name'] = 'placement_cell';
+        $page_data['page_title'] = site_phrase('placement_cell');
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/placement_cell', $page_data);
+    }
+
 
     /******** Chanchal Code for location Wise batch *******/
     public function batch($param = '')

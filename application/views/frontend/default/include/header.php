@@ -113,7 +113,7 @@
             font-size: 21px;
             color: #00266c;
             background: none;
-            border: none
+            border: none;
         }
 
         input[type="search"] {
