@@ -49,7 +49,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="edu-counterup counterup-style-1">
                     <h2 class="count-number primary-color">
-                        <span class="odometer" data-odometer-final="95">.</span><span>%</span>
+                        <span class="odometer" data-odometer-final="95">100</span><span>%</span>
                     </h2>
                     <h6 class="title">Placement Rate</h6>
                 </div>
@@ -59,7 +59,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="edu-counterup counterup-style-1">
                     <h2 class="count-number secondary-color">
-                        <span class="odometer" data-odometer-final="24">.</span><span> LPA</span>
+                        <span class="odometer" data-odometer-final="24">25</span><span> LPA</span>
                     </h2>
                     <h6 class="title">Highest Package</h6>
                 </div>
@@ -69,7 +69,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="edu-counterup counterup-style-1">
                     <h2 class="count-number extra02-color">
-                        <span class="odometer" data-odometer-final="6.8">.</span><span> LPA</span>
+                        <span class="odometer" data-odometer-final="6.8">7</span><span> LPA</span>
                     </h2>
                     <h6 class="title">Average Package</h6>
                 </div>
@@ -79,7 +79,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="edu-counterup counterup-style-1">
                     <h2 class="count-number extra05-color">
-                        <span class="odometer" data-odometer-final="500">.</span><span>+</span>
+                        <span class="odometer" data-odometer-final="500">500</span><span>+</span>
                     </h2>
                     <h6 class="title">Hiring Partners</h6>
                 </div>

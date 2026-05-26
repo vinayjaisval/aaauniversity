@@ -339,13 +339,8 @@ $user_details = $this->user_model->get_user($this->session->userdata('user_id'))
                                     </a>
                                 </li>
 
-                                <li class="header-btn">
-                                    <a href="<?php echo base_url('home/branches'); ?>"
-                                       class="edu-btn btn-medium btn-gradient ">
-                                        <i class="fa fa-map-marker" aria-hidden="true" style="font-size: 19px;"> </i>
-                                        Ours Branches</a>
-                                </li>
-
+                                <li><a href="<?php echo base_url('home/placement_cell') ?>">
+                                        Placement Cell</a></li>
                                 <li class="header-btn">
                                     <a href="<?php echo base_url('home/my_courses') ?>"
                                        class="edu-btn btn-medium btn-gradient">
@@ -453,10 +448,10 @@ $user_details = $this->user_model->get_user($this->session->userdata('user_id'))
                                 </li>
 
                                 <li class="header-btn">
-                                    <a href="<?php echo base_url('home/branches'); ?>"
+                                    <a href="<?php echo base_url('home/placement_cell') ?>"
                                        class="edu-btn btn-medium btn-gradient ">
                                         <i class="fa fa-map-marker" aria-hidden="true" style="font-size: 19px;"> </i>
-                                        Our Branches</a>
+                                        Placement Cell</a>
                                 </li>
 
                                 <li class="header-btn">
