@@ -39,8 +39,8 @@
     <div class="container">
         <!-- Filter Menu using native theme filters -->
         <div class="isotop-button isotop-filter justify-content-center">
-            <button data-filter="*" class="is-checked"><span class="filter-text">International Training</span></button>
-            <button data-filter=".campus"><span class="filter-text">Corporate Training</span></button>
+            <button data-filter=".international"><span class="filter-text">International Training</span></button>
+            <button data-filter=".campus" class="is-checked"><span class="filter-text">Corporate Training</span></button>
             <button data-filter=".classroom"><span class="filter-text">Online/Offline Batches</span></button>
             <button data-filter=".events"><span class="filter-text">Awards</span></button>
             <button data-filter=".graduation"><span class="filter-text">Events</span></button>
@@ -48,83 +48,218 @@
 
         <!-- Gallery Grid using responsive row gutters and column breakpoints -->
         <div class="gallery-grid-list row g-3 g-md-4">
-            <!-- Gallery Item 1 -->
+            <!-- Gallery Item 1 (Corporate Training) -->
             <div class="col-lg-4 col-sm-6 col-6 gallery-item campus">
                 <div class="thumbnail">
-                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-01.jpg'); ?>" class="gallery-popup" title="Campus Life">
-                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-01.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Campus Life">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-12.jpg'); ?>" class="gallery-popup" title="Corporate Training Session 1">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-12.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Corporate Training Session">
                     </a>
                 </div>
             </div>
 
-            <!-- Gallery Item 2 -->
-            <div class="col-lg-4 col-sm-6 col-6 gallery-item classroom">
-                <div class="thumbnail">
-                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-02.jpg'); ?>" class="gallery-popup" title="Classroom Environment">
-                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-02.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Classroom Study">
-                    </a>
-                </div>
-            </div>
-
-            <!-- Gallery Item 3 -->
-            <div class="col-lg-4 col-sm-6 col-6 gallery-item graduation">
-                <div class="thumbnail">
-                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-03.jpg'); ?>" class="gallery-popup" title="Graduation Ceremony">
-                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-03.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Graduation Ceremony">
-                    </a>
-                </div>
-            </div>
-
-            <!-- Gallery Item 4 -->
+            <!-- Gallery Item 2 (Corporate Training) -->
             <div class="col-lg-4 col-sm-6 col-6 gallery-item campus">
                 <div class="thumbnail">
-                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-04.jpg'); ?>" class="gallery-popup" title="State-of-the-Art Library">
-                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-04.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Library">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-13.jpg'); ?>" class="gallery-popup" title="Corporate Training Session 2">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-13.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Corporate Training Session">
                     </a>
                 </div>
             </div>
 
-            <!-- Gallery Item 5 -->
+            <!-- Gallery Item 3 (Corporate Training) -->
+            <div class="col-lg-4 col-sm-6 col-6 gallery-item campus">
+                <div class="thumbnail">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-14.jpg'); ?>" class="gallery-popup" title="Corporate Training Session 3">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-14.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Corporate Training Session">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gallery Item 4 (Corporate Training) -->
+            <div class="col-lg-4 col-sm-6 col-6 gallery-item campus">
+                <div class="thumbnail">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-15.jpg'); ?>" class="gallery-popup" title="Corporate Training Session 4">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-15.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Corporate Training Session">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gallery Item 5 (Corporate Training) -->
+            <div class="col-lg-4 col-sm-6 col-6 gallery-item campus">
+                <div class="thumbnail">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-16.jpg'); ?>" class="gallery-popup" title="Corporate Training Session 5">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-16.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Corporate Training Session">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gallery Item 6 (Online/Offline Batches) -->
             <div class="col-lg-4 col-sm-6 col-6 gallery-item classroom">
                 <div class="thumbnail">
-                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-05.jpg'); ?>" class="gallery-popup" title="Students Group Study">
-                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-05.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Group Study">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-17.jpg'); ?>" class="gallery-popup" title="Online/Offline Batches 1">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-17.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Online/Offline Batches">
                     </a>
                 </div>
             </div>
 
-            <!-- Gallery Item 6 -->
+            <!-- Gallery Item 7 (Online/Offline Batches) -->
             <div class="col-lg-4 col-sm-6 col-6 gallery-item classroom">
                 <div class="thumbnail">
-                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-06.jpg'); ?>" class="gallery-popup" title="Advanced Science Laboratory">
-                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-06.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Science Lab">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-18.jpg'); ?>" class="gallery-popup" title="Online/Offline Batches 2">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-18.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Online/Offline Batches">
                     </a>
                 </div>
             </div>
 
-            <!-- Gallery Item 7 -->
+            <!-- Gallery Item 8 (Online/Offline Batches) -->
+            <div class="col-lg-4 col-sm-6 col-6 gallery-item classroom">
+                <div class="thumbnail">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-19.jpg'); ?>" class="gallery-popup" title="Online/Offline Batches 3">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-19.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Online/Offline Batches">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gallery Item 9 (Online/Offline Batches) -->
+            <div class="col-lg-4 col-sm-6 col-6 gallery-item classroom">
+                <div class="thumbnail">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-20.jpg'); ?>" class="gallery-popup" title="Online/Offline Batches 4">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-20.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Online/Offline Batches">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gallery Item 10 (Online/Offline Batches) -->
+            <div class="col-lg-4 col-sm-6 col-6 gallery-item classroom">
+                <div class="thumbnail">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-21.jpg'); ?>" class="gallery-popup" title="Online/Offline Batches 5">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-21.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Online/Offline Batches">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gallery Item 11 (Awards) -->
             <div class="col-lg-4 col-sm-6 col-6 gallery-item events">
                 <div class="thumbnail">
-                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-07.jpg'); ?>" class="gallery-popup" title="Annual University Event">
-                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-07.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="College Event">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-22.jpg'); ?>" class="gallery-popup" title="Awards 1">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-22.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Awards">
                     </a>
                 </div>
             </div>
 
-            <!-- Gallery Item 8 -->
+            <!-- Gallery Item 12 (Awards) -->
             <div class="col-lg-4 col-sm-6 col-6 gallery-item events">
                 <div class="thumbnail">
-                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-08.jpg'); ?>" class="gallery-popup" title="Academic Seminar">
-                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-08.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Academic Seminar">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-24.jpg'); ?>" class="gallery-popup" title="Awards 2">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-24.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Awards">
                     </a>
                 </div>
             </div>
 
-            <!-- Gallery Item 9 -->
+            <!-- Gallery Item 13 (Awards) -->
+            <div class="col-lg-4 col-sm-6 col-6 gallery-item events">
+                <div class="thumbnail">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-26.jpg'); ?>" class="gallery-popup" title="Awards 3">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-26.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Awards">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gallery Item 14 (Awards) -->
+            <div class="col-lg-4 col-sm-6 col-6 gallery-item events">
+                <div class="thumbnail">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-27.jpg'); ?>" class="gallery-popup" title="Awards 4">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-27.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Awards">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gallery Item 15 (Events) -->
             <div class="col-lg-4 col-sm-6 col-6 gallery-item graduation">
                 <div class="thumbnail">
-                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-09.jpg'); ?>" class="gallery-popup" title="Graduation Celebrations">
-                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-09.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Graduation Day">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-28.jpg'); ?>" class="gallery-popup" title="Events 1">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-28.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Events">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gallery Item 16 (Events) -->
+            <div class="col-lg-4 col-sm-6 col-6 gallery-item graduation">
+                <div class="thumbnail">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-29.jpg'); ?>" class="gallery-popup" title="Events 2">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-29.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Events">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gallery Item 17 (Events) -->
+            <div class="col-lg-4 col-sm-6 col-6 gallery-item graduation">
+                <div class="thumbnail">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-30.jpg'); ?>" class="gallery-popup" title="Events 3">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-30.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Events">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gallery Item 18 (Events) -->
+            <div class="col-lg-4 col-sm-6 col-6 gallery-item graduation">
+                <div class="thumbnail">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-31.jpg'); ?>" class="gallery-popup" title="Events 4">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-31.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Events">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gallery Item 19 (International Training) -->
+            <div class="col-lg-4 col-sm-6 col-6 gallery-item international">
+                <div class="thumbnail">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-32.jpg'); ?>" class="gallery-popup" title="International Training 1">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-32.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="International Training">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gallery Item 20 (International Training) -->
+            <div class="col-lg-4 col-sm-6 col-6 gallery-item international">
+                <div class="thumbnail">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-33.jpg'); ?>" class="gallery-popup" title="International Training 2">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-33.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="International Training">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gallery Item 21 (International Training) -->
+            <div class="col-lg-4 col-sm-6 col-6 gallery-item international">
+                <div class="thumbnail">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-34.jpg'); ?>" class="gallery-popup" title="International Training 3">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-34.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="International Training">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gallery Item 22 (International Training) -->
+            <div class="col-lg-4 col-sm-6 col-6 gallery-item international">
+                <div class="thumbnail">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-35.jpg'); ?>" class="gallery-popup" title="International Training 4">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-35.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="International Training">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gallery Item 23 (International Training) -->
+            <div class="col-lg-4 col-sm-6 col-6 gallery-item international">
+                <div class="thumbnail">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-36.jpg'); ?>" class="gallery-popup" title="International Training 5">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-36.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="International Training">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gallery Item 24 (International Training) -->
+            <div class="col-lg-4 col-sm-6 col-6 gallery-item international">
+                <div class="thumbnail">
+                    <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-37.jpg'); ?>" class="gallery-popup" title="International Training 6">
+                        <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-37.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="International Training">
                     </a>
                 </div>
             </div>
@@ -154,6 +289,9 @@
                 });
             }
         });
+
+        // Trigger initial filtering for default active tab (Corporate Training)
+        $('.isotop-filter button.is-checked').trigger('click');
 
         // Initialize Magnific Popup Gallery
         $('.gallery-popup').magnificPopup({
