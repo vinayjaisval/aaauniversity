@@ -323,16 +323,27 @@ border-color: #00266C9E;
     height: 130px;
   }
 }
-/* Ensure all Awards/Certificates images render as standard cover grid images just like other tabs (no frames, equal height, perfectly aligned rectangles in a line) */
-.gallery-grid-list .gallery-item.events img {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of 1b65ee5 (worked in gallery section)
+=======
+>>>>>>> parent of 1b65ee5 (worked in gallery section)
+=======
+>>>>>>> parent of 1b65ee5 (worked in gallery section)
+=======
+>>>>>>> parent of 1b65ee5 (worked in gallery section)
+/* Prevent cropping on the third awards image (gallery-26.jpg) */
+.gallery-grid-list img[src*="gallery-26.jpg"] {
   object-fit: contain !important;
-  background-color: #ffffff !important;
-  border: 1px solid #f1f3f5 !important;
-  padding: 0 !important;
-  box-shadow: none !important;
-  border-radius: 6px !important;
+  background-color: #fafafa;
 }
 
+>>>>>>> parent of 1b65ee5 (worked in gallery section)
 
 /* Responsive Gallery Filter Buttons wrapping and styling on smaller viewports */
 @media only screen and (max-width: 767px) {
