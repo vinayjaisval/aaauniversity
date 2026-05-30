@@ -791,7 +791,7 @@ h3{
             <div class="col-lg-3 col-sm-6">
                 <div class="edu-counterup counterup-style-3 border-none">
                     <h2 class="counter-item count-number extra05-color">
-                        <span class="odometer" data-odometer-final="354">.</span><span>+</span>
+                        <span class="odometer" data-odometer-final="100">.</span><span>+</span>
                     </h2>
                     <h6 class="title">Top Instructors</h6>
                 </div>

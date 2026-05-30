@@ -261,7 +261,7 @@
                             <div class="counterup-box counterup-box-2">
                                 <div class="edu-counterup counterup-style-2">
                                     <h2 class="counter-item count-number extra05-color">
-                                        <span class="odometer" data-odometer-final="354">.</span><span>+</span>
+                                        <span class="odometer" data-odometer-final="100">.</span><span>+</span>
                                     </h2>
                                     <h6 class="title">Top Instructors</h6>
                                 </div>
