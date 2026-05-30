@@ -34,8 +34,13 @@
 
     <!-- Site Stylesheet -->
 <<<<<<< HEAD
+<<<<<<< HEAD
     <link rel="stylesheet" href="<?php echo base_url() . 'assets/frontend/default/assets/css/app.css?v=2.2' ?>">
     <link rel="stylesheet" href="<?php echo base_url() . 'assets/frontend/default/assets/css/custom.css?v=2.2' ?>">
+=======
+    <link rel="stylesheet" href="<?php echo base_url() . 'assets/frontend/default/assets/css/app.css?v=2.7' ?>">
+    <link rel="stylesheet" href="<?php echo base_url() . 'assets/frontend/default/assets/css/custom.css?v=2.7' ?>">
+>>>>>>> parent of 1b65ee5 (worked in gallery section)
 =======
     <link rel="stylesheet" href="<?php echo base_url() . 'assets/frontend/default/assets/css/app.css?v=2.7' ?>">
     <link rel="stylesheet" href="<?php echo base_url() . 'assets/frontend/default/assets/css/custom.css?v=2.7' ?>">
