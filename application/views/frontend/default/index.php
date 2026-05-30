@@ -767,7 +767,16 @@ h3{
             <div class="col-lg-3 col-sm-6">
                 <div class="edu-counterup counterup-style-3">
                     <h2 class="counter-item count-number primary-color">
-                        <span class="odometer" data-odometer-final="100">.</span><span>+</span>
+                        <?php $total_user = $this->crud_model->get_only_user()->num_rows();
+                        $change_value = $total_user * 11;
+
+                        $data = $this->lazyload->thousand_upper_number_change_in_k($change_value);
+                        $new_data = explode("/", $data)
+                        //                                echo $data;
+                        //                                die();
+                        ?>
+                        <span class="odometer"
+                              data-odometer-final="<?php echo $new_data[0]; ?>">.</span><span><?php echo $new_data[1]; ?></span>
                     </h2>
                     <h6 class="title">Student Enrolled</h6>
                 </div>
@@ -775,7 +784,7 @@ h3{
             <div class="col-lg-3 col-sm-6">
                 <div class="edu-counterup counterup-style-3">
                     <h2 class="counter-item count-number secondary-color">
-                        <span class="odometer" data-odometer-final="2">.</span><span>+</span>
+                        <span class="odometer" data-odometer-final="32.4">.</span><span>K</span>
                     </h2>
                     <h6 class="title">Class Completed</h6>
                 </div>
