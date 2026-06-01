@@ -323,6 +323,7 @@ border-color: #00266C9E;
     height: 130px;
   }
 }
+
 /* Ensure all Awards/Certificates images render as standard cover grid images just like other tabs (no frames, equal height, perfectly aligned rectangles in a line) */
 .gallery-grid-list .gallery-item.events img {
   object-fit: contain !important;
@@ -332,7 +333,6 @@ border-color: #00266C9E;
   box-shadow: none !important;
   border-radius: 6px !important;
 }
-
 
 /* Responsive Gallery Filter Buttons wrapping and styling on smaller viewports */
 @media only screen and (max-width: 767px) {
@@ -356,7 +356,6 @@ border-color: #00266C9E;
     line-height: 36px !important;
     padding: 0 10px !important;
     font-size: 10px !important;
-    margin: 3px !important;
   }
 }
 
