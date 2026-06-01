@@ -1573,16 +1573,9 @@ class Home extends CI_Controller
     }
     /*************     End Chanchal Code for Branch Location   ***********/
 
-    /*************     Start Chanchal Code for cancellation and refund policy   ***********/
     public function cancellation_and_refund_policy()
     {
-        $page_data['page_name'] = 'cancellation_and_refund_policy';
-        $page_data['page_title'] = site_phrase('cancellation_and_refund_policy');
-//        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
-
-
-        /*********** Chanchal code for term condition *************/
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/cancellation_and_refund_policy', $page_data);
+        redirect(base_url(), 'refresh');
     }
 
     /*************      End Chanchal Code for cancellation and refund policy    ***********/

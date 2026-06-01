@@ -385,13 +385,13 @@
             </div>
 
             <!-- Gallery Item 33 (Events) -->
-            <div class="col-lg-4 col-sm-6 col-6 gallery-item graduation">
+            <!-- <div class="col-lg-4 col-sm-6 col-6 gallery-item graduation">
                 <div class="thumbnail">
                     <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-66.jpg'); ?>" class="gallery-popup" title="Events 6">
                         <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-66.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Events">
                     </a>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Gallery Item 34 (Events) -->
             <div class="col-lg-4 col-sm-6 col-6 gallery-item graduation">
@@ -403,13 +403,13 @@
             </div>
 
             <!-- Gallery Item 35 (Events) -->
-            <div class="col-lg-4 col-sm-6 col-6 gallery-item graduation">
+            <!-- <div class="col-lg-4 col-sm-6 col-6 gallery-item graduation">
                 <div class="thumbnail">
                     <a href="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-68.jpg'); ?>" class="gallery-popup" title="Events 8">
                         <img src="<?php echo base_url('assets/frontend/default/assets/images/gallery/gallery-68.jpg'); ?>" class="img-fluid rounded-3 w-100" alt="Events">
                     </a>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Gallery Item 36 (Events) -->
             <div class="col-lg-4 col-sm-6 col-6 gallery-item graduation">
