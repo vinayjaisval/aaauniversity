@@ -101,9 +101,9 @@
                                         
                                         Ours Branches</a>
                                 </li>
-                                <li>
-                                    <a href="<?php echo base_url('uploads/Sanjeet_Mishra_Premium_Profile.pdf'); ?>" target="_blank">Trainer Profile</a>
-                                </li>
+                                 <li>
+                                     <a href="<?php echo site_url('home/trainer_profile'); ?>">Trainer Profile</a>
+                                 </li>
 
                             </ul>
                         </div>
