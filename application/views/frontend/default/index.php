@@ -70,8 +70,85 @@ h3{
         margin-top: 64px;
     }
 
+    /* Modern custom indicators for the right banner carousel */
+    #rightBannerCarousel .carousel-indicators {
+        bottom: -35px;
+        margin-bottom: 0;
+        gap: 8px;
+    }
+    #rightBannerCarousel .carousel-indicators [data-bs-target] {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #00266c;
+        border: none;
+        opacity: 0.4;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    #rightBannerCarousel .carousel-indicators .active {
+        width: 24px;
+        border-radius: 5px;
+        background-color: #00266c;
+        opacity: 1;
+    }
 
-     
+    /* Glassmorphic custom controls for the carousel */
+    #rightBannerCarousel .carousel-control-prev,
+    #rightBannerCarousel .carousel-control-next {
+        width: 44px;
+        height: 44px;
+        background: rgba(255, 255, 255, 0.75);
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: 0;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+    #rightBannerCarousel .carousel-control-prev {
+        left: 15px;
+    }
+    #rightBannerCarousel .carousel-control-next {
+        right: 15px;
+    }
+    #rightBannerCarousel:hover .carousel-control-prev,
+    #rightBannerCarousel:hover .carousel-control-next {
+        opacity: 1;
+    }
+    #rightBannerCarousel .carousel-control-prev:hover,
+    #rightBannerCarousel .carousel-control-next:hover {
+        background: #00266c;
+        transform: translateY(-50%) scale(1.08);
+    }
+    #rightBannerCarousel .carousel-control-prev-icon,
+    #rightBannerCarousel .carousel-control-next-icon {
+        width: 20px;
+        height: 20px;
+        filter: invert(1) sepia(100%) saturate(1000%) hue-rotate(190deg);
+        transition: filter 0.3s ease;
+    }
+    #rightBannerCarousel .carousel-control-prev:hover .carousel-control-prev-icon,
+    #rightBannerCarousel .carousel-control-next:hover .carousel-control-next-icon {
+        filter: invert(1) brightness(100);
+    }
+
+    @keyframes border-glow {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
+    /* High-end container animated gradient border */
+    #rightBannerCarousel .carousel-inner {
+        border-radius: 16px;
+        background: linear-gradient(135deg, #00266c, #2e3092, #00266c);
+        background-size: 200% 200%;
+        animation: border-glow 6s ease infinite;
+        padding: 3px;
+        border: none;
+    }
 </style>
 
 <div class="hero-banner hero-style-8" style="min-height: 500px;">
@@ -137,59 +214,53 @@ h3{
             <div class="col-lg-6">
                 <div class="banner-thumbnail">
                     <div class="thumbnail" data-sal-delay="500" data-sal="slide-left" data-sal-duration="1000">
-                        <img src="<?php echo base_url() ?>/assets/frontend/default/assets/images/banner/home8-vactor-bg.png"  
-                             alt="vactor Image" style="height:400px">
+                        <div id="rightBannerCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                            <?php
+                            $slides = [
+                                ['image' => 'banner-slide-1.jpg', 'alt' => 'Drone Forensics'],
+                                ['image' => 'banner-slide-2.jpg', 'alt' => 'API Penetration Testing'],
+                                ['image' => 'banner-slide-3.jpg', 'alt' => 'Thick Client Application Pentesting'],
+                                ['image' => 'banner-slide-4.jpg', 'alt' => 'AWS Pentesting'],
+                                ['image' => 'banner-slide-5.jpg', 'alt' => 'ISO Audit'],
+                                ['image' => 'banner-slide-6.jpg', 'alt' => 'Bug Bounty'],
+                                ['image' => 'banner-slide-7.jpg', 'alt' => 'Cyber Forensics'],
+                                ['image' => 'banner-slide-8.jpg', 'alt' => 'Ethical Hacking']
+                            ];
+                            ?>
+                            <div class="carousel-indicators">
+                                <?php foreach ($slides as $index => $slide): ?>
+                                    <button type="button" 
+                                            data-bs-target="#rightBannerCarousel" 
+                                            data-bs-slide-to="<?php echo $index; ?>" 
+                                            <?php echo $index === 0 ? 'class="active" aria-current="true"' : ''; ?> 
+                                            aria-label="Slide <?php echo $index + 1; ?>">
+                                    </button>
+                                <?php endforeach; ?>
+                            </div>
+                            <div class="carousel-inner">
+                                <?php foreach ($slides as $index => $slide): ?>
+                                    <div class="carousel-item <?php echo $index === 0 ? 'active' : ''; ?>">
+                                        <img src="<?php echo base_url('assets/frontend/default/assets/images/banner/' . $slide['image']); ?>" 
+                                             class="d-block w-100" 
+                                             alt="<?php echo $slide['alt']; ?>" 
+                                             style="border-radius: 13px;">
+                                    </div>
+                                <?php endforeach; ?>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#rightBannerCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#rightBannerCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
-                  
-                    <ul class="shape-group">
-                        <li class="shape-1" data-sal-delay="1000" data-sal="fade" data-sal-duration="1000">
-                            <img data-depth="1.5"
-                                 src="<?php echo base_url() . 'assets/frontend/default/assets/images/others/shape-30.png' ?>"
-                                 alt="Shape">
-                        </li>
-                        <li class="shape-2 scene" data-sal-delay="1000" data-sal="fade" data-sal-duration="1000">
-                            <img data-depth="2"
-                                 src="<?php echo base_url() . 'assets/frontend/default/assets/images/others/shape-31.png' ?>"
-                                 alt="Shape">
-                        </li>
-                        <li class="shape-3 scene shape-light" data-sal-delay="1000" data-sal="fade"
-                            data-sal-duration="1000">
-                            <img data-depth="-2"
-                                 src="<?php echo base_url() . 'assets/frontend/default/assets/images/faq/shape-09.png' ?>"
-                                 alt="Shape">
-                        </li>
-                        <li class="shape-3 scene shape-dark" data-sal-delay="1000" data-sal="fade"
-                            data-sal-duration="1000">
-                            <img data-depth="-2"
-                                 src="<?php echo base_url() . 'assets/frontend/default/assets/images/faq/dark-shape-09.png' ?>"
-                                 alt="Shape">
-                        </li>
-                        <li class="shape-4 scene shape-light" data-sal-delay="1000" data-sal="fade"
-                            data-sal-duration="1000">
-                            <img data-depth="-2"
-                                 src="<?php echo base_url() . 'assets/frontend/default/assets/images/faq/shape-13.png' ?>"
-                                 alt="Shape">
-                        </li>
-                        <li class="shape-4 scene shape-dark" data-sal-delay="1000" data-sal="fade"
-                            data-sal-duration="1000">
-                            <img data-depth="-2"
-                                 src="<?php echo base_url() . 'assets/frontend/default/assets/images/faq/dark-shape-13.png' ?>"
-                                 alt="Shape">
-                        </li>
-                    </ul>
+
                 </div>
             </div>
         </div>
-        <ul class="shape-group">
-            <li class="shape-5">
-                <span></span>
-            </li>
-            <li class="shape-6 scene" data-sal-delay="1000" data-sal="fade" data-sal-duration="1000">
-                <img data-depth="1.2"
-                     src="<?php echo base_url() . 'assets/frontend/default/assets/images/others/shape-32.png' ?>"
-                     alt="Shape">
-            </li>
-        </ul>
     </div>
 </div>
 <!--=====================================-->
@@ -647,8 +718,6 @@ h3{
                 <div class="edu-faq-content">
                     <div class="section-title section-left">
                         <span class="pre-title">FAq’s</span>
-                        <h2 class="title">Over 10 Years in <span class="color-secondary"> <br> Skill</span>
-                            Development</h2>
                         <span class="shape-line"><i class="icon-19"></i></span>
                     </div>
                  <div class="faq-accordion" id="faq-accordion">

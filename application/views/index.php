@@ -670,8 +670,6 @@ h3{
                 <div class="edu-faq-content">
                     <div class="section-title section-left">
                         <span class="pre-title">FAq’s</span>
-                        <h2 class="title">Over 10 Years in <span class="color-secondary"> <br> Skill</span>
-                            Development</h2>
                         <span class="shape-line"><i class="icon-19"></i></span>
                     </div>
                  <div class="faq-accordion" id="faq-accordion">
