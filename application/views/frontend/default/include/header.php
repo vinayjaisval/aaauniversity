@@ -85,17 +85,26 @@
             margin: 0px 10px !important;
         }
 
+        .mainmenu form {
+            position: relative;
+        }
+
         <?php if ($this->session->userdata('user_login')) { ?>
         .home_header.fa.fa-search {
-            position: relative;
-            right: 0;
-            /*padding: -82px;*/
-            top: -37px;
-            left: 382px;
-            font-size: 21px;
-            color: #00266c;
-            background: none;
-            border: none
+            position: absolute !important;
+            left: calc(75% + 15px) !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+            margin: 0 !important;
+            border: none !important;
+            background: none !important;
+            font-size: 21px !important;
+            color: #00266c !important;
+            padding: 0 !important;
+            line-height: 1 !important;
+            height: auto !important;
+            width: auto !important;
+            z-index: 10;
         }
 
         input[type="search"] {
@@ -105,13 +114,20 @@
 
         <?php }else{?>
         .home_header.fa.fa-search {
-            position: relative;
-            top: -37px;
-            left: 382px;
-            font-size: 21px;
-            color: #00266c;
-            background: none;
-            border: none;
+            position: absolute !important;
+            left: calc(60% + 60px) !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+            margin: 0 !important;
+            border: none !important;
+            background: none !important;
+            font-size: 21px !important;
+            color: #00266c !important;
+            padding: 0 !important;
+            line-height: 1 !important;
+            height: auto !important;
+            width: auto !important;
+            z-index: 10;
         }
 
         input[type="search"] {
@@ -120,6 +136,7 @@
         }
 
         <?php }?>
+
 
         i.fa.fa-search.my_course_search {
             margin-left: -24px;

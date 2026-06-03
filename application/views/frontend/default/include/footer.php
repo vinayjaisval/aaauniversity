@@ -90,8 +90,6 @@
                                 <li><a href="<?php echo base_url('home/privacy_policy') ?>">Privacy policy</a></li>
                                 <li><a href="<?php echo base_url('home/terms_and_condition') ?>"> Terms and
                                         condition</a></li>
-                                <li><a href="<?php echo base_url('home/cancellation_and_refund_policy') ?>">
-                                        Cancellation and refund policy</a></li>
                                 <li><a href="<?php echo base_url('home/gallery') ?>">
                                         Gallery</a></li>
                                 <li><a href="<?php echo base_url('home/placement_cell') ?>">
@@ -103,6 +101,9 @@
                                         
                                         Ours Branches</a>
                                 </li>
+                                 <li>
+                                     <a href="<?php echo site_url('home/trainer_profile'); ?>">Trainer Profile</a>
+                                 </li>
 
                             </ul>
                         </div>
@@ -267,7 +268,7 @@ if ($_SESSION['user_login']) {
     </script>
     <script>
             // array to store strings
-            var poem = ["100% Job Placements.","Free Sessions for PD & PC",];
+            var poem = ["100% Job Placements.",];
             var i = 0;
             // text animation loop
             var animInterval = window.setInterval(

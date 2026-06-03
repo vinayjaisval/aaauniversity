@@ -229,11 +229,11 @@
             <div class="col-lg-6 col-12">
                 <div class="testimonial-grid">
                     <div class="thumbnail">
-                        <img src="<?php echo base_url('uploads/user_image/placeholder.png'); ?>" alt="Alumni profile" style="width: 70px; height: 70px;">
+                        <img src="<?php echo base_url('uploads/user_image/alumni-1.jpg'); ?>" alt="Alumni profile" style="width: 70px; height: 70px; object-fit: cover; border-radius: 50%;">
                         <span class="qoute-icon"><i class="icon-27"></i></span>
                     </div>
                     <div class="content">
-                        <p>"Ekon Academy completely changed my career trajectory. The coding bootcamps and intensive training prepared me perfectly for my tech rounds. The placement cell scheduled 3 interviews for me in a week, and I got placed at TCS!"</p>
+                        <p>"Ekon Academy's cyber security bootcamps gave me the hands-on skills to start as an Information Security Consultant at AAA Technology."</p>
                         <div class="rating-icon">
                             <i class="icon-star-filled"></i>
                             <i class="icon-star-filled"></i>
@@ -241,8 +241,8 @@
                             <i class="icon-star-filled"></i>
                             <i class="icon-star-filled"></i>
                         </div>
-                        <h5 class="title">Amit Sharma</h5>
-                        <span class="subtitle">Software Engineer - TCS</span>
+                        <h5 class="title">Vishal</h5>
+                        <span class="subtitle">Information Security Consultant - <a href="https://www.aaatechnologies.co.in/" target="_blank" style="color: inherit; transition: color 0.3s;" onmouseover="this.style.color='#00266c';" onmouseout="this.style.color='inherit';">AAA Technology <i class="fa fa-external-link-alt" style="font-size: 10px; margin-left: 3px; opacity: 0.8;"></i></a></span>
                     </div>
                 </div>
             </div>
@@ -251,11 +251,11 @@
             <div class="col-lg-6 col-12">
                 <div class="testimonial-grid">
                     <div class="thumbnail">
-                        <img src="<?php echo base_url('uploads/user_image/placeholder.png'); ?>" alt="Alumni profile" style="width: 70px; height: 70px;">
+                        <img src="<?php echo base_url('uploads/user_image/alumni-2.jpg'); ?>" alt="Alumni profile" style="width: 70px; height: 70px; object-fit: cover; border-radius: 50%;">
                         <span class="qoute-icon"><i class="icon-27"></i></span>
                     </div>
                     <div class="content">
-                        <p>"The soft-skills training and logical reasoning sessions gave me massive confidence. Resume workshops were extremely detailed and highlighted my strengths properly. Very thankful to the placement mentors!"</p>
+                        <p>"Mock interviews and soft-skills grooming built the confidence I needed to clear the rigorous selection process at AAA Technology."</p>
                         <div class="rating-icon">
                             <i class="icon-star-filled"></i>
                             <i class="icon-star-filled"></i>
@@ -263,8 +263,249 @@
                             <i class="icon-star-filled"></i>
                             <i class="icon-star-filled"></i>
                         </div>
-                        <h5 class="title">Sneha Patel</h5>
-                        <span class="subtitle">Data Analyst - Capgemini</span>
+                        <h5 class="title">Sachin</h5>
+                        <span class="subtitle">Information Security Consultant - <a href="https://www.aaatechnologies.co.in/" target="_blank" style="color: inherit; transition: color 0.3s;" onmouseover="this.style.color='#00266c';" onmouseout="this.style.color='inherit';">AAA Technology <i class="fa fa-external-link-alt" style="font-size: 10px; margin-left: 3px; opacity: 0.8;"></i></a></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial Item 3 -->
+            <div class="col-lg-6 col-12">
+                <div class="testimonial-grid">
+                    <div class="thumbnail">
+                        <img src="<?php echo base_url('uploads/user_image/alumni-3.jpg'); ?>" alt="Alumni profile" style="width: 70px; height: 70px; object-fit: cover; border-radius: 50%;">
+                        <span class="qoute-icon"><i class="icon-27"></i></span>
+                    </div>
+                    <div class="content">
+                        <p>"The advanced penetration testing and network defense labs prepared me perfectly for security consulting challenges at AAA Technology."</p>
+                        <div class="rating-icon">
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                        </div>
+                        <h5 class="title">Kartik Joshi</h5>
+                        <span class="subtitle">Information Security Consultant - <a href="https://www.aaatechnologies.co.in/" target="_blank" style="color: inherit; transition: color 0.3s;" onmouseover="this.style.color='#00266c';" onmouseout="this.style.color='inherit';">AAA Technology <i class="fa fa-external-link-alt" style="font-size: 10px; margin-left: 3px; opacity: 0.8;"></i></a></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial Item 4 -->
+            <div class="col-lg-6 col-12">
+                <div class="testimonial-grid">
+                    <div class="thumbnail">
+                        <img src="<?php echo base_url('uploads/user_image/alumni-4.jpg'); ?>" alt="Alumni profile" style="width: 70px; height: 70px; object-fit: cover; border-radius: 50%;">
+                        <span class="qoute-icon"><i class="icon-27"></i></span>
+                    </div>
+                    <div class="content">
+                        <p>"The placement cell's dedicated corporate matching and resume workshops led directly to my role at AAA Technology."</p>
+                        <div class="rating-icon">
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                        </div>
+                        <h5 class="title">Kaustubh Rasam</h5>
+                        <span class="subtitle">Information Security Consultant - <a href="https://www.aaatechnologies.co.in/" target="_blank" style="color: inherit; transition: color 0.3s;" onmouseover="this.style.color='#00266c';" onmouseout="this.style.color='inherit';">AAA Technology <i class="fa fa-external-link-alt" style="font-size: 10px; margin-left: 3px; opacity: 0.8;"></i></a></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial Item 5 -->
+            <div class="col-lg-6 col-12">
+                <div class="testimonial-grid">
+                    <div class="thumbnail">
+                        <img src="<?php echo base_url('uploads/user_image/alumni-5.jpg'); ?>" alt="Alumni profile" style="width: 70px; height: 70px; object-fit: cover; border-radius: 50%;">
+                        <span class="qoute-icon"><i class="icon-27"></i></span>
+                    </div>
+                    <div class="content">
+                        <p>"Detailed threat analysis modules and expert mentorship gave me the key competencies needed for my job at AAA Technology."</p>
+                        <div class="rating-icon">
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                        </div>
+                        <h5 class="title">Sankalp Kelaskekar</h5>
+                        <span class="subtitle">Information Security Consultant - <a href="https://www.aaatechnologies.co.in/" target="_blank" style="color: inherit; transition: color 0.3s;" onmouseover="this.style.color='#00266c';" onmouseout="this.style.color='inherit';">AAA Technology <i class="fa fa-external-link-alt" style="font-size: 10px; margin-left: 3px; opacity: 0.8;"></i></a></span>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial Item 6 -->
+            <div class="col-lg-6 col-12">
+                <div class="testimonial-grid">
+                    <div class="thumbnail">
+                        <img src="<?php echo base_url('uploads/user_image/alumni-6.jpg'); ?>" alt="Alumni profile" style="width: 70px; height: 70px; object-fit: cover; border-radius: 50%;">
+                        <span class="qoute-icon"><i class="icon-27"></i></span>
+                    </div>
+                    <div class="content">
+                        <p>"From daily hands-on exercises to real-world security scenarios, Ekon Academy built a strong foundation for my role at AAA Technology."</p>
+                        <div class="rating-icon">
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                        </div>
+                        <h5 class="title">Nitin Arkade</h5>
+                        <span class="subtitle">Information Security Consultant - <a href="https://www.aaatechnologies.co.in/" target="_blank" style="color: inherit; transition: color 0.3s;" onmouseover="this.style.color='#00266c';" onmouseout="this.style.color='inherit';">AAA Technology <i class="fa fa-external-link-alt" style="font-size: 10px; margin-left: 3px; opacity: 0.8;"></i></a></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial Item 7 -->
+            <div class="col-lg-6 col-12">
+                <div class="testimonial-grid">
+                    <div class="thumbnail">
+                        <img src="<?php echo base_url('uploads/user_image/alumni-9.jpg?v=5'); ?>" alt="Alumni profile" style="width: 70px; height: 70px; object-fit: cover; border-radius: 50%;">
+                        <span class="qoute-icon"><i class="icon-27"></i></span>
+                    </div>
+                    <div class="content">
+                        <p>"Ekon Academy's structured modules in vulnerability assessment and network defense gave me the key competencies needed for my job at AAA Technology."</p>
+                        <div class="rating-icon">
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                        </div>
+                        <h5 class="title">Henav Doshi</h5>
+                        <span class="subtitle">Information Security Consultant - <a href="https://www.aaatechnologies.co.in/" target="_blank" style="color: inherit; transition: color 0.3s;" onmouseover="this.style.color='#00266c';" onmouseout="this.style.color='inherit';">AAA Technology <i class="fa fa-external-link-alt" style="font-size: 10px; margin-left: 3px; opacity: 0.8;"></i></a></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial Item 8 -->
+            <div class="col-lg-6 col-12">
+                <div class="testimonial-grid">
+                    <div class="thumbnail">
+                        <img src="<?php echo base_url('uploads/user_image/alumni-7.jpg?v=5'); ?>" alt="Alumni profile" style="width: 70px; height: 70px; object-fit: cover; border-radius: 50%;">
+                        <span class="qoute-icon"><i class="icon-27"></i></span>
+                    </div>
+                    <div class="content">
+                        <p>"The intensive cyber security curriculum aligned perfectly with the consulting standards required at AAA Technology."</p>
+                        <div class="rating-icon">
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                        </div>
+                        <h5 class="title">Prathmesh Chinchkar</h5>
+                        <span class="subtitle">Information Security Consultant - <a href="https://www.aaatechnologies.co.in/" target="_blank" style="color: inherit; transition: color 0.3s;" onmouseover="this.style.color='#00266c';" onmouseout="this.style.color='inherit';">AAA Technology <i class="fa fa-external-link-alt" style="font-size: 10px; margin-left: 3px; opacity: 0.8;"></i></a></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial Item 9 -->
+            <div class="col-lg-6 col-12">
+                <div class="testimonial-grid">
+                    <div class="thumbnail">
+                        <img src="<?php echo base_url('uploads/user_image/alumni-8.jpg?v=5'); ?>" alt="Alumni profile" style="width: 70px; height: 70px; object-fit: cover; border-radius: 50%;">
+                        <span class="qoute-icon"><i class="icon-27"></i></span>
+                    </div>
+                    <div class="content">
+                        <p>"The hands-on labs and real-world penetration testing scenarios prepared me to excel as a security consultant at AAA Technology."</p>
+                        <div class="rating-icon">
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                        </div>
+                        <h5 class="title">Prathmesh Lonari</h5>
+                        <span class="subtitle">Information Security Consultant - <a href="https://www.aaatechnologies.co.in/" target="_blank" style="color: inherit; transition: color 0.3s;" onmouseover="this.style.color='#00266c';" onmouseout="this.style.color='inherit';">AAA Technology <i class="fa fa-external-link-alt" style="font-size: 10px; margin-left: 3px; opacity: 0.8;"></i></a></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial Item 10 -->
+            <div class="col-lg-6 col-12">
+                <div class="testimonial-grid">
+                    <div class="thumbnail">
+                        <img src="<?php echo base_url('uploads/user_image/alumni-10.jpg?v=5'); ?>" alt="Alumni profile" style="width: 70px; height: 70px; object-fit: cover; border-radius: 50%;">
+                        <span class="qoute-icon"><i class="icon-27"></i></span>
+                    </div>
+                    <div class="content">
+                        <p>"Dedicated placement grooming, resume workshops, and mock interviews helped me land my role at AAA Technology."</p>
+                        <div class="rating-icon">
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                        </div>
+                        <h5 class="title">Rajkumar Varma</h5>
+                        <span class="subtitle">Information Security Consultant - <a href="https://www.aaatechnologies.co.in/" target="_blank" style="color: inherit; transition: color 0.3s;" onmouseover="this.style.color='#00266c';" onmouseout="this.style.color='inherit';">AAA Technology <i class="fa fa-external-link-alt" style="font-size: 10px; margin-left: 3px; opacity: 0.8;"></i></a></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial Item 11 -->
+            <div class="col-lg-6 col-12">
+                <div class="testimonial-grid">
+                    <div class="thumbnail">
+                        <img src="<?php echo base_url('uploads/user_image/alumni-11.jpg?v=5'); ?>" alt="Alumni profile" style="width: 70px; height: 70px; object-fit: cover; border-radius: 50%;">
+                        <span class="qoute-icon"><i class="icon-27"></i></span>
+                    </div>
+                    <div class="content">
+                        <p>"The threat modeling and incident response training at Ekon Academy gave me a solid technical edge at AAA Technology."</p>
+                        <div class="rating-icon">
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                        </div>
+                        <h5 class="title">Deepak Varak</h5>
+                        <span class="subtitle">Information Security Consultant - <a href="https://www.aaatechnologies.co.in/" target="_blank" style="color: inherit; transition: color 0.3s;" onmouseover="this.style.color='#00266c';" onmouseout="this.style.color='inherit';">AAA Technology <i class="fa fa-external-link-alt" style="font-size: 10px; margin-left: 3px; opacity: 0.8;"></i></a></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial Item 12 -->
+            <div class="col-lg-6 col-12">
+                <div class="testimonial-grid">
+                    <div class="thumbnail">
+                        <img src="<?php echo base_url('uploads/user_image/alumni-12.jpg?v=5'); ?>" alt="Alumni profile" style="width: 70px; height: 70px; object-fit: cover; border-radius: 50%;">
+                        <span class="qoute-icon"><i class="icon-27"></i></span>
+                    </div>
+                    <div class="content">
+                        <p>"Ekon Academy provided the key technical skills and corporate readiness training needed to start my role at AAA Technology."</p>
+                        <div class="rating-icon">
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                        </div>
+                        <h5 class="title">Devilal Sonar</h5>
+                        <span class="subtitle">Information Security Consultant - <a href="https://www.aaatechnologies.co.in/" target="_blank" style="color: inherit; transition: color 0.3s;" onmouseover="this.style.color='#00266c';" onmouseout="this.style.color='inherit';">AAA Technology <i class="fa fa-external-link-alt" style="font-size: 10px; margin-left: 3px; opacity: 0.8;"></i></a></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial Item 13 -->
+            <div class="col-lg-6 col-12">
+                <div class="testimonial-grid">
+                    <div class="thumbnail">
+                        <img src="<?php echo base_url('uploads/user_image/alumni-13.jpg?v=5'); ?>" alt="Alumni profile" style="width: 70px; height: 70px; object-fit: cover; border-radius: 50%;">
+                        <span class="qoute-icon"><i class="icon-27"></i></span>
+                    </div>
+                    <div class="content">
+                        <p>"Ekon Academy's placement desk helped match my capabilities to the security consultant requirements of AAA Technology."</p>
+                        <div class="rating-icon">
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                            <i class="icon-star-filled"></i>
+                        </div>
+                        <h5 class="title">Yash Mehta</h5>
+                        <span class="subtitle">Information Security Consultant - <a href="https://www.aaatechnologies.co.in/" target="_blank" style="color: inherit; transition: color 0.3s;" onmouseover="this.style.color='#00266c';" onmouseout="this.style.color='inherit';">AAA Technology <i class="fa fa-external-link-alt" style="font-size: 10px; margin-left: 3px; opacity: 0.8;"></i></a></span>
                     </div>
                 </div>
             </div>
