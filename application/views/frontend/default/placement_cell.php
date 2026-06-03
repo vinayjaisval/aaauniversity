@@ -524,7 +524,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-7 text-center">
                             <div class="section-title section-center">
-                                <h2 class="title">Hire from Ekon Academy</h2>
+                                <h2 class="title">Hire from AAA University</h2>
                                 <p>Are you a recruiter looking to hire skilled, industry-ready technical talent for your organization? Get in touch with our Corporate Relations and Placement Desk today.</p>
                                 <a href="mailto:placement@ekonacademy.com" class="edu-btn btn-medium">Contact Placement Desk <i class="icon-4"></i></a>
                             </div>
