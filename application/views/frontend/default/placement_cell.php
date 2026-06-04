@@ -496,8 +496,7 @@
                         <span class="qoute-icon"><i class="icon-27"></i></span>
                     </div>
                     <div class="content">
-                        <p>"AAA University's placement desk helped match my capabilities to the security consultant requirements of AAA Technology."</p>
-                        <div class="rating-icon">
+                        <p>"AAA University's placement desk helped match my capabilities to the security consultant requirements of AAA Technology."</p>                        <div class="rating-icon">
                             <i class="icon-star-filled"></i>
                             <i class="icon-star-filled"></i>
                             <i class="icon-star-filled"></i>
