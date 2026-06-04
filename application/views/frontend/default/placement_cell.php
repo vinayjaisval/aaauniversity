@@ -41,7 +41,7 @@
             <span class="pre-title">OUR PERFORMANCE</span>
             <h2 class="title">Placement Highlights</h2>
             <span class="shape-line"><i class="icon-19"></i></span>
-            <p>Ekon Academy has a proven track record of securing premium jobs for our students in top tier corporations.</p>
+            <p>AAA University has a proven track record of securing premium jobs for our students in top tier corporations.</p>
         </div>
         
         <div class="row g-5">
@@ -179,7 +179,7 @@
             <span class="pre-title">OUR NETWORK</span>
             <h2 class="title">Our Top Recruiters</h2>
             <span class="shape-line"><i class="icon-19"></i></span>
-            <p>Ekon Academy graduates work at some of the world's most successful corporations and tech giants.</p>
+            <p>AAA University graduates work at some of the world's most successful corporations and tech giants.</p>
         </div>
         
         <!-- Recruiter Logos using native brand grid styles -->
@@ -233,7 +233,7 @@
                         <span class="qoute-icon"><i class="icon-27"></i></span>
                     </div>
                     <div class="content">
-                        <p>"Ekon Academy's cyber security bootcamps gave me the hands-on skills to start as an Information Security Consultant at AAA Technology."</p>
+                        <p>"AAA University's cyber security bootcamps gave me the hands-on skills to start as an Information Security Consultant at AAA Technology."</p>
                         <div class="rating-icon">
                             <i class="icon-star-filled"></i>
                             <i class="icon-star-filled"></i>
@@ -342,7 +342,7 @@
                         <span class="qoute-icon"><i class="icon-27"></i></span>
                     </div>
                     <div class="content">
-                        <p>"From daily hands-on exercises to real-world security scenarios, Ekon Academy built a strong foundation for my role at AAA Technology."</p>
+                        <p>"From daily hands-on exercises to real-world security scenarios, AAA University built a strong foundation for my role at AAA Technology."</p>
                         <div class="rating-icon">
                             <i class="icon-star-filled"></i>
                             <i class="icon-star-filled"></i>
@@ -364,7 +364,7 @@
                         <span class="qoute-icon"><i class="icon-27"></i></span>
                     </div>
                     <div class="content">
-                        <p>"Ekon Academy's structured modules in vulnerability assessment and network defense gave me the key competencies needed for my job at AAA Technology."</p>
+                        <p>"AAA University's structured modules in vulnerability assessment and network defense gave me the key competencies needed for my job at AAA Technology."</p>
                         <div class="rating-icon">
                             <i class="icon-star-filled"></i>
                             <i class="icon-star-filled"></i>
@@ -404,7 +404,7 @@
             <div class="col-lg-6 col-12">
                 <div class="testimonial-grid">
                     <div class="thumbnail">
-                        <img src="<?php echo base_url('uploads/user_image/alumni-8.jpg?v=5'); ?>" alt="Alumni profile" style="width: 70px; height: 70px; object-fit: cover; border-radius: 50%;">
+                        <img src="<?php echo base_url('uploads/user_image/alumni-8.jpg?v=20'); ?>" alt="Alumni profile" style="width: 70px; height: 70px; object-fit: cover; border-radius: 50%;">
                         <span class="qoute-icon"><i class="icon-27"></i></span>
                     </div>
                     <div class="content">
@@ -452,7 +452,7 @@
                         <span class="qoute-icon"><i class="icon-27"></i></span>
                     </div>
                     <div class="content">
-                        <p>"The threat modeling and incident response training at Ekon Academy gave me a solid technical edge at AAA Technology."</p>
+                        <p>"The threat modeling and incident response training at AAA University gave me a solid technical edge at AAA Technology."</p>
                         <div class="rating-icon">
                             <i class="icon-star-filled"></i>
                             <i class="icon-star-filled"></i>
@@ -474,7 +474,7 @@
                         <span class="qoute-icon"><i class="icon-27"></i></span>
                     </div>
                     <div class="content">
-                        <p>"Ekon Academy provided the key technical skills and corporate readiness training needed to start my role at AAA Technology."</p>
+                        <p>"AAA University provided the key technical skills and corporate readiness training needed to start my role at AAA Technology."</p>
                         <div class="rating-icon">
                             <i class="icon-star-filled"></i>
                             <i class="icon-star-filled"></i>
@@ -496,8 +496,7 @@
                         <span class="qoute-icon"><i class="icon-27"></i></span>
                     </div>
                     <div class="content">
-                        <p>"Ekon Academy's placement desk helped match my capabilities to the security consultant requirements of AAA Technology."</p>
-                        <div class="rating-icon">
+                        <p>"AAA University's placement desk helped match my capabilities to the security consultant requirements of AAA Technology."</p>                        <div class="rating-icon">
                             <i class="icon-star-filled"></i>
                             <i class="icon-star-filled"></i>
                             <i class="icon-star-filled"></i>
@@ -524,7 +523,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-7 text-center">
                             <div class="section-title section-center">
-                                <h2 class="title">Hire from Ekon Academy</h2>
+                                <h2 class="title">Hire from AAA University</h2>
                                 <p>Are you a recruiter looking to hire skilled, industry-ready technical talent for your organization? Get in touch with our Corporate Relations and Placement Desk today.</p>
                                 <a href="mailto:placement@ekonacademy.com" class="edu-btn btn-medium">Contact Placement Desk <i class="icon-4"></i></a>
                             </div>
