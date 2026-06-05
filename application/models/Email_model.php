@@ -10,6 +10,8 @@ class Email_model extends CI_Model
 
     public function send_email_verification_mail($to = "", $verification_code = "")
     {
+
+    
         $to_name = $this->db->get_where('users', array('email' => $to))->row_array();
 
         $subject = "Verify email address";
