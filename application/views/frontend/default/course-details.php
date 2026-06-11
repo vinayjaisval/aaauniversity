@@ -66,12 +66,18 @@ $course_details = $this->crud_model->get_course_by_id($course_id)->row_array();
     .review-reply {
         margin-left: 105px;
     }
+    .course-details-content .course-tab-content {
+        margin-top: 35px !important;
+    }
+    .edu-section-gap {
+        padding: 50px 0 !important;
+    }
 </style>
 <div class="edu-breadcrumb-area breadcrumb-style-3">
     <div class="container">
         <div class="breadcrumb-inner">
             <ul class="edu-breadcrumb">
-                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>">Home</a></li>
                 <li class="separator"><i class="icon-angle-right"></i></li>
                 <li class="breadcrumb-item active" aria-current="page">Course Details</li>
             </ul>
@@ -162,14 +168,14 @@ $course_details = $this->crud_model->get_course_by_id($course_id)->row_array();
                                 <div class="course-overview">
                                     <h3 class="heading-title">Course Description</h3>
                                     <?php echo $course_details['description']; ?>
-                                    <h5 class="title">What You’ll Learn</h5>
+                                    <!-- <h5 class="title">What You’ll Learn</h5>
                                     <ul class="mb--60">
                                         <?php foreach (json_decode($course_details['outcomes']) as $outcome): ?>
                                             <?php if ($outcome != ""): ?>
                                                 <li><?php echo $outcome; ?></li>
                                             <?php endif; ?>
                                         <?php endforeach; ?>
-                                    </ul>
+                                    </ul> -->
                                 </div>
                             </div>
                         </div>
@@ -1129,10 +1135,10 @@ $course_details = $this->crud_model->get_course_by_id($course_id)->row_array();
                                 <div class="share-area">
                                     <h4 class="title">Share On:</h4>
                                     <ul class="social-share">
-                                        <li><a href="#"><i class="icon-facebook"></i></a></li>
-                                        <li><a href="#"><i class="icon-twitter"></i></a></li>
-                                        <li><a href="#"><i class="icon-linkedin2"></i></a></li>
-                                        <li><a href="#"><i class="icon-youtube"></i></a></li>
+                                        <li><a href="https://www.facebook.com/profile.php?id=61590642956460"><i class="icon-facebook"></i></a></li>
+                                        <li><a href="https://x.com/aaa_university"><i class="icon-twitter"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/company/aaa-university-co-in/"><i class="icon-linkedin2"></i></a></li>
+                                        <li><a href="https://www.youtube.com/@AAAUniversity"><i class="icon-youtube"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1189,7 +1195,18 @@ $course_details = $this->crud_model->get_course_by_id($course_id)->row_array();
                                     </a>
                                 </div>
                                 <div class="content">
-                                    <div class="course-price price-round"><?php echo "₹ " . $courses['price'] ?></div>
+                                    <?php
+                                    $price_text = "₹" . $courses['price'];
+                                    $extra_style = "";
+                                    if (strlen($courses['price']) >= 6) {
+                                        $extra_style = 'style="font-size: 14px !important; line-height: 80px !important; white-space: nowrap;"';
+                                    } else if (strlen($courses['price']) >= 5) {
+                                        $extra_style = 'style="font-size: 16px !important; line-height: 82px !important; white-space: nowrap;"';
+                                    } else {
+                                        $extra_style = 'style="white-space: nowrap;"';
+                                    }
+                                    ?>
+                                    <div class="course-price price-round" <?php echo $extra_style; ?>><?php echo $price_text; ?></div>
                                     <span class="course-level"><?php echo $category_details['0']['name'] ?></span>
                                     <h5 class="title">
                                         <a href="<?php echo base_url('home/course/' . rawurlencode(slugify($courses['title'])) . '/' . $courses['id']) ?>"><?php echo ellipsis($courses['title'], 30) ?></a>

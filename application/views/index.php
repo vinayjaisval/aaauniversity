@@ -698,7 +698,7 @@ h3{
                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                      data-bs-parent="#faq-accordion">
                                     <div class="accordion-body">
-                                        <p>On AAA University, learning is easy. Browse www.ekonacademy.com
+                                        <p>On AAA University, learning is easy. Browse www.aaauniversity.co.in
                                             and search for the course that you want to take. Buy the course
                                             and log in to the portal with the username and password you got
                                             in the confirmation email. You will get an email containing information
