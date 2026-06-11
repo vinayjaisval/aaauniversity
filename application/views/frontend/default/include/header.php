@@ -2,6 +2,11 @@
 <html class="no-js" lang="zxx">
 
 <head>
+    <!-- Preconnect and Preload Tawk.to Customer Support Chat widget for instant loading & message delivery -->
+    <link rel="preconnect" href="https://embed.tawk.to" crossorigin>
+    <link rel="preconnect" href="https://va.tawk.to" crossorigin>
+    <link rel="preload" as="script" href="https://embed.tawk.to/64a3f37994cf5d49dc61700a/1h4g6u5fr" crossorigin>
+
     <!-- Meta Data -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -471,10 +476,10 @@ $user_details = $this->user_model->get_user($this->session->userdata('user_id'))
                                 </li>
 
                                 <li class="header-btn">
-                                    <a href="callto:8130331835" class="edu-btn btn-medium btn-gradient"> <i
+                                    <a href="tel:+918414003455" class="edu-btn btn-medium btn-gradient"> <i
                                                 class="fa fa-phone" style="font-size: 19px;" aria-hidden="true"></i>
                                         (+91)
-                                        8130331835 </a>
+                                        8414003455 </a>
                                 </li>
 
                                 <?php if ($this->session->userdata('admin_login')) { ?>

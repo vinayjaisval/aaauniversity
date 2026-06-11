@@ -43,7 +43,7 @@
                                 </li>
 
 
-                                <li><span>Call:</span><a href="tel:+91 8130331835">+91 8130331835</a></li>
+                                <li><span>Call:</span><a href="tel:+918414003455">+91 8414003455</a></li>
                                 <li><span>Email:</span><a href="mailto:info@aaatechnologies.co.in" target="_blank">info@aaatechnologies.co.in</a>
                                 </li>
                             </ul>
@@ -117,27 +117,27 @@
 
 
                             <ul class="social-share icon-transparent">
-                                <li><a href="https://www.facebook.com/ekonacademyofficial" class="color-fb" target="_blank"><i
+                                <li><a href="https://www.facebook.com/profile.php?id=61590642956460" class="color-fb" target="_blank"><i
                                                 class="icon-facebook"> </i><span style="color: #484848">Facebook</span></a>
                                 </li>
                             </ul>
                             <ul class="social-share icon-transparent">
-                                <li><a href="https://www.linkedin.com/company/ekon-academy/" class="color-linkd" target="_blank"><i
+                                <li><a href="https://www.linkedin.com/company/aaa-university-co-in/" class="color-linkd" target="_blank"><i
                                                 class="icon-linkedin2"> </i><span style="color: #484848">Linkedin</span></a>
                                 </li>
                             </ul>
                             <ul class="social-share icon-transparent">
-                                <li><a href="https://instagram.com/ekonacademyofficial" class="color-ig" target="_blank"><i
+                                <li><a href="https://www.instagram.com/aaa_university/" class="color-ig" target="_blank"><i
                                                 class="icon-instagram"> </i><span
                                                 style="color: #484848">Instagram</span></a></li>
                             </ul>
                             <ul class="social-share icon-transparent">
-                                <li><a href="https://twitter.com/EkonAcademy" class="color-twitter" target="_blank"><i
+                                <li><a href="https://x.com/aaa_university" class="color-twitter" target="_blank"><i
                                                 class="icon-twitter"> </i><span
                                                 style="color: #484848">Twitter</span></a></li>
                             </ul>
                             <ul class="social-share icon-transparent">
-                                <li><a href="https://www.youtube.com/@ekonacademy/" class="color-yt" target="_blank"><i class="icon-youtube" > </i><span
+                                <li><a href="https://www.youtube.com/@AAAUniversity" class="color-yt" target="_blank"><i class="icon-youtube" > </i><span
                                                 style="color: #484848">YouTube</span></a></li>
                             </ul>
 
@@ -177,8 +177,8 @@
 
     (function () {
         var options = {
-            call: "8130331835", // Call phone number
-            whatsapp: "8130331835", // WhatsApp number
+            call: "918414003455", // Call phone number
+            whatsapp: "918414003455", // WhatsApp number
             call_to_action: "Message us", // Call to action
             button_color: "#FF6550", // Color of button
             position: "left", // Position may be 'right' or 'left'

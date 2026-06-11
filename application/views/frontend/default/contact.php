@@ -60,7 +60,7 @@
                         </li>
                         <li>
                             <h5 class="title">Phone</h5>
-        <p><a href="tel:+(+91)8130331835"> (+91)8130331835 </a></p>
+        <p><a href="tel:+918414003455"> (+91) 8414003455 </a></p>
                         </li>
                     </ul>
                     <ul class="social-share">
