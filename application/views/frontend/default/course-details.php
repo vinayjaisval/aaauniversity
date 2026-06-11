@@ -77,7 +77,7 @@ $course_details = $this->crud_model->get_course_by_id($course_id)->row_array();
     <div class="container">
         <div class="breadcrumb-inner">
             <ul class="edu-breadcrumb">
-                <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>">Home</a></li>
+                <li class="breadcrumb-item"><a href="<?php echo base_url() ?>">Home</a></li>
                 <li class="separator"><i class="icon-angle-right"></i></li>
                 <li class="breadcrumb-item active" aria-current="page">Course Details</li>
             </ul>

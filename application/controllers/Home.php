@@ -225,7 +225,7 @@ class Home extends CI_Controller
         $page_data['page_title'] = site_phrase("my_courses");
 
         /******* Old Code for view courses ********/
-//        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
+     //        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
 
         /******* Chanchal Code for view courses ********/
         $this->load->view('frontend/' . get_frontend_settings('theme') . '/my_courses', $page_data);
@@ -924,19 +924,22 @@ class Home extends CI_Controller
     }
 
     // Version 1.4 codes
-    public function login()
-    {
-        if ($this->session->userdata('admin_login')) {
-            redirect(site_url('admin'), 'refresh');
-        } elseif ($this->session->userdata('user_login')) {
-            redirect(site_url('user'), 'refresh');
-        }
-        $page_data['page_name'] = 'login';
-        $page_data['page_title'] = site_phrase('login');
+   public function login()
+{
+    $this->session->unset_userdata('error_message');
+    $this->session->set_flashdata('error_message', '');
 
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/login', $page_data);
-//        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
+    if ($this->session->userdata('admin_login')) {
+        redirect(site_url('admin'), 'refresh');
+    } elseif ($this->session->userdata('user_login')) {
+        redirect(site_url('user'), 'refresh');
     }
+
+    $page_data['page_name'] = 'login';
+    $page_data['page_title'] = site_phrase('login');
+
+    $this->load->view('frontend/' . get_frontend_settings('theme') . '/login', $page_data);
+}
 
     public function sign_up()
     {

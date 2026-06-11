@@ -39,7 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 // $config['index_page'] = '';
-$config['base_url']    = 'http://localhost/aaauniversity/';
+ $config['base_url']    = 'http://localhost:8888/aaauniversity/';
 
 // $config['base_url'] = 'https';
 // //$config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
