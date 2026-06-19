@@ -351,7 +351,7 @@ h3{
                     <i class="icon-19"></i>
                   </span>
                     <p>Enroll in one of our courses now and join the thousands of successful students who have found
-                        their dream jobs through AAA University.</p>
+                        their dream jobs through AAA Academia.</p>
                 </div>
             </div>
         </div>
@@ -726,13 +726,13 @@ h3{
                                 <h5 class="accordion-header">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseOne" aria-expanded="true">
-                                        What is AAA University?
+                                        What is AAA Academia?
                                     </button>
                                 </h5>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                      data-bs-parent="#faq-accordion">
                                     <div class="accordion-body">
-                                       <p> AAA University is an initiative of Ekon Solutions India Pvt Ltd that provides learning opportunities to students and professionals in tier 2-3 cities and rural areas of India. We provide comprehensive learning options, hands-on projects, & courses with guaranteed placement assistance. We train candidates and connect them with related job openings after they fulfil the skill requirement. AAA University empowers students and professionals to take on any challenges their profession demands.</p>
+                                       <p> AAA Academia is an initiative of Ekon Solutions India Pvt Ltd that provides learning opportunities to students and professionals in tier 2-3 cities and rural areas of India. We provide comprehensive learning options, hands-on projects, & courses with guaranteed placement assistance. We train candidates and connect them with related job openings after they fulfil the skill requirement. AAA Academia empowers students and professionals to take on any challenges their profession demands.</p>
                                     </div>
                                 </div>
                             </div>
@@ -746,7 +746,7 @@ h3{
                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                      data-bs-parent="#faq-accordion">
                                     <div class="accordion-body">
-                                        <p>On AAA University, learning is easy. Browse <a href="https://www.aaauniversity.co.in" target="_blank" style="color: #05256c; text-decoration: underline;">www.aaauniversity.co.in</a>
+                                        <p>On AAA Academia, learning is easy. Browse <a href="https://www.aaauniversity.co.in" target="_blank" style="color: #05256c; text-decoration: underline;">www.aaaAcademia.co.in</a>
                                             and search for the course that you want to take. Buy the course
                                             and log in to the portal with the username and password you got
                                             in the confirmation email. You will get an email containing information
@@ -759,13 +759,13 @@ h3{
                                 <h5 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseThree" aria-expanded="false">
-                                        Where are the branches of AAA University located?
+                                        Where are the branches of AAA Academia located?
                                     </button>
                                 </h5>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                      data-bs-parent="#faq-accordion">
                                     <div class="accordion-body">
-                                       <p>We offer classes in hybrid mode (both offline and online). Head office of AAA University is located at Noida and We are expanding in various states across the country. Especially in tier 2 and rural areas, to provide equal opportunities for upskilling.
+                                       <p>We offer classes in hybrid mode (both offline and online). Head office of AAA Academia is located at Noida and We are expanding in various states across the country. Especially in tier 2 and rural areas, to provide equal opportunities for upskilling.
                                             <br>
                                             Right now we are at:
                                             <li>Gorakhpur</li>
@@ -778,7 +778,7 @@ h3{
                                 <h5 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseFour" aria-expanded="false">
-                                        What makes AAA University different from other  e-learning platforms?
+                                        What makes AAA Academia different from other  e-learning platforms?
                                     </button>
                                 </h5>
                                 <div id="collapseFour" class="accordion-collapse collapse"
@@ -793,7 +793,7 @@ h3{
                                 <h5 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseFive" aria-expanded="false">
-                                        What are the benefits of taking courses on AAA University?
+                                        What are the benefits of taking courses on AAA Academia?
                                     </button>
                                 </h5>
                                 <div id="collapseFive" class="accordion-collapse collapse"
@@ -1004,7 +1004,7 @@ h3{
                 <div class="col-lg-6">
                     <div class="section-title section-left" data-sal-delay="150" data-sal="slide-up"
                          data-sal-duration="800">
-                        <h2 class="title">Get Your Quality <br> Skills Certificate Through <br> AAA University</h2>
+                        <h2 class="title">Get Your Quality <br> Skills Certificate Through <br> AAA Academia</h2>
 <!--                        <a href="contact.php" class="edu-btn btn-secondary">Get started now <i class="icon-4"></i></a>-->
                     </div>
                 </div>

@@ -10,7 +10,7 @@
     <!-- Meta Data -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AAA University | Online Education Platform</title>
+    <title>AAA Academia | Online Education Platform</title>
     <meta name="google-site-verification" content="e_9UJriJLrVBpmhxeWUooNRp5OiXrzstWo00Oihlxu4" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
