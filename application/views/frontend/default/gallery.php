@@ -1,11 +1,17 @@
 <?php $this->load->view('frontend/default/include/header'); ?>
+<style>
+    .edu-breadcrumb-area.breadcrumb-style-3 {
+        padding-bottom: 30px !important;
+    }
+    .edu-section-gap.bg-image {
+        padding-top: 30px !important;
+        padding-bottom: 40px !important;
+    }
+</style>
 
-<div class="edu-breadcrumb-area">
+<div class="edu-breadcrumb-area breadcrumb-style-3">
     <div class="container">
         <div class="breadcrumb-inner">
-            <div class="page-title">
-                <h1 class="title">Photo Gallery</h1>
-            </div>
             <ul class="edu-breadcrumb">
                 <li class="breadcrumb-item"><a href="<?php echo base_url()?>">Home</a></li>
                 <li class="separator"><i class="icon-angle-right"></i></li>
