@@ -1,7 +1,7 @@
 @import url(../../css2);
 :root {
   --color-primary: #021b66;
-  --color-secondary: #ff8de3;
+  --color-secondary: red;
   --color-textSecondary: #ff5b5c;
   --color-tertiary: #f8b81f;
   --color-dark: #111212;
@@ -3111,7 +3111,7 @@ button.edu-btn.curved-medium:hover {
 }
 a.edu-btn.btn-secondary,
 button.edu-btn.btn-secondary {
-  background: #ff8de3;
+  background: red;
   color: var(--color-white);
 }
 a.edu-btn.btn-secondary:hover,
@@ -3500,7 +3500,7 @@ button.edu-btn.btn-border:hover {
 .edu-course-widget.widget-course-summery .content .course-item li .price {
   font-size: 20px;
   font-weight: var(--p-semi-bold);
-  color: #ff8de3;
+  color: red;
 }
 .edu-course-widget.widget-course-summery .content .read-more-btn {
   margin-top: 24px;

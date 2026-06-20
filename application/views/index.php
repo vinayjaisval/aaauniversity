@@ -12,7 +12,7 @@
     /*         margin-left: -92px;*/
          }
          h1 { 
-    color:#ff8de3;
+    color:red;
     font-size:25px;
 }
 span{

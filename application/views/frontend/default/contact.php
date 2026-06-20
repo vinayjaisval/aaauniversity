@@ -1,11 +1,16 @@
 <?php $this->load->view('frontend/default/include/header'); ?>
+<style>
+    .edu-breadcrumb-area.breadcrumb-style-3 {
+        padding-bottom: 30px !important;
+    }
+    .contact-us-area {
+        padding-top: 30px !important;
+    }
+</style>
 
-<div class="edu-breadcrumb-area">
+<div class="edu-breadcrumb-area breadcrumb-style-3">
     <div class="container">
         <div class="breadcrumb-inner">
-            <div class="page-title">
-                <h1 class="title">Contact Us</h1>
-            </div>
             <ul class="edu-breadcrumb">
                 <li class="breadcrumb-item"><a href="<?php echo base_url() ?>">Home</a></li>
                 <li class="separator"><i class="icon-angle-right"></i></li>
@@ -102,14 +107,7 @@
                             </div>
                         </div>
                     </form>
-                    <ul class="shape-group">
-                        <li class="shape-1 scene"><img data-depth="1"
-                                                       src="<?php echo base_url('uploads/system/images/about/shape-13.png') ?>"
-                                                       alt="Shape"></li>
-                        <li class="shape-2 scene"><img data-depth="-1"
-                                                       src="<?php echo base_url('uploads/system/images/about/shape-02.png') ?>"
-                                                       alt="Shape"></li>
-                    </ul>
+
                 </div>
             </div>
         </div>

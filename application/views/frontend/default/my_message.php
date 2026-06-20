@@ -245,7 +245,7 @@ $instructor_list = $this->crud_model->get_user()->result_array();
 
     /* Handle on hover */
     .chat .messages-chat::-webkit-scrollbar-thumb:hover {
-        background: #ff8de3;
+        background: red;
     }
 
 
@@ -425,7 +425,7 @@ $instructor_list = $this->crud_model->get_user()->result_array();
 
     /* Handle on hover */
     .discussion_list::-webkit-scrollbar-thumb:hover {
-        background: #ff8de3;
+        background: red;
     }
 
     .discussions .discussion .photo {

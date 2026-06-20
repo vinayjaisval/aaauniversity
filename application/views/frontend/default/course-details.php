@@ -72,6 +72,11 @@ $course_details = $this->crud_model->get_course_by_id($course_id)->row_array();
     .edu-section-gap {
         padding: 50px 0 !important;
     }
+    @media only screen and (min-width: 992px) {
+        .course-sidebar-3.sidebar-top-position {
+            margin-top: 0px !important;
+        }
+    }
 </style>
 <div class="edu-breadcrumb-area breadcrumb-style-3">
     <div class="container">
@@ -1040,7 +1045,11 @@ $course_details = $this->crud_model->get_course_by_id($course_id)->row_array();
                                         }
                                         ?>
                                       
-                                        <span class="value price" style="font-size:14px;"><del><?php echo $course_details['price'] ?>.00</del></span> <span class="value price"><?php echo $course_details['price'] -$dis?>.00</span>
+                                        <?php if ($dis > 0): ?>
+                                            <span class="value price" style="font-size:14px;"><del><?php echo $course_details['price'] ?>.00</del></span> <span class="value price"><?php echo $course_details['price'] -$dis?>.00</span>
+                                        <?php else: ?>
+                                            <span class="value price"><?php echo $course_details['price'] ?>.00</span>
+                                        <?php endif; ?>
                                       
                                     </li>
                                    

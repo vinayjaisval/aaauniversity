@@ -4,19 +4,43 @@ include 'include/header.php';
 $branch = $this->db->get('branch_location')->result_array();
 ?>
 
-<div class="edu-breadcrumb-area">
+<style>
+    .edu-breadcrumb-area.breadcrumb-style-3 {
+        padding-bottom: 30px !important;
+    }
+    .contact-me-area {
+        padding-top: 30px !important;
+        padding-bottom: 40px !important;
+    }
+</style>
+
+<div class="edu-breadcrumb-area breadcrumb-style-3">
     <div class="container">
         <div class="breadcrumb-inner">
-            <div class="page-title">
-                <h1 class="title">Branch Location</h1>
-            </div>
             <ul class="edu-breadcrumb">
-                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>">Home</a></li>
                 <li class="separator"><i class="icon-angle-right"></i></li>
                 <li class="breadcrumb-item"><a href="#">Branch Location</a></li>
             </ul>
         </div>
     </div>
+    <ul class="shape-group">
+        <li class="shape-1">
+            <span></span>
+        </li>
+        <li class="shape-2 scene"><img data-depth="2"
+                                       src="<?php echo base_url('uploads/system/images/about/shape-13.png') ?>"
+                                       alt="shape"></li>
+        <li class="shape-3 scene"><img data-depth="-2"
+                                       src="<?php echo base_url('uploads/system/images/about/shape-15.png') ?>"
+                                       alt="shape"></li>
+        <li class="shape-4">
+            <span></span>
+        </li>
+        <li class="shape-5 scene"><img data-depth="2"
+                                       src="<?php echo base_url('uploads/system/images/about/shape-07.png') ?>"
+                                       alt="shape"></li>
+    </ul>
 </div>
 
 <!-- ================= MAIN SECTION ================= -->
