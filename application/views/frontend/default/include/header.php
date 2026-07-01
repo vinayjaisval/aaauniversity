@@ -264,7 +264,7 @@ $user_details = $this->user_model->get_user($this->session->userdata('user_id'))
                             <a href="<?php echo base_url() ?>">
                                 <img class="logo-light"
                                      src="<?php echo base_url('assets/frontend/default/assets/unilogo.png') ?>"
-                                     alt=" Logo" style="height: 83px;">
+                                     alt=" Logo" style="height: 50px;">
                               
                             </a>
                         </div>
