@@ -132,9 +132,10 @@
                                                 style="color: #484848">Instagram</span></a></li>
                             </ul>
                             <ul class="social-share icon-transparent">
-                                <li><a href="https://x.com/aaa_university" class="color-twitter" target="_blank"><i
+                                            <li><a href="https://x.com/aaa_university" class="color-twitter" target="_blank"><i
                                                 class="icon-twitter"> </i><span
-                                                style="color: #484848">Twitter</span></a></li>
+                                                style="color: #484848">Twitter</span></a>
+                                            </li>
                             </ul>
                             <ul class="social-share icon-transparent">
                                 <li><a href="https://www.youtube.com/@AAAUniversity" class="color-yt" target="_blank"><i class="icon-youtube" > </i><span

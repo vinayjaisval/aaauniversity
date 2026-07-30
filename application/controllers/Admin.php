@@ -2420,6 +2420,7 @@ class Admin extends CI_Controller
     /*****       Chanchal Code Start Enquiry Page    ******/
     public function enquiry($param = '')
     {
+        
         if ($param == 'view_page') {
 
             $this->db->where('view', 'No');
@@ -2431,6 +2432,7 @@ class Admin extends CI_Controller
             $page_data['enquiry_data'] = $this->crud_model->enquiry_form('get_all');
             $page_data['page_name'] = 'enquiry_page';
             $page_data['page_title'] = get_phrase('enquiry_page');
+           
             $this->load->view('backend/index', $page_data);
         }
     }

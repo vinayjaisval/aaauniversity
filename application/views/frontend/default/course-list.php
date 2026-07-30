@@ -427,7 +427,7 @@ if($flag==1){
                                         <p>
                                             <!--<a href="<?php echo site_url('home/instructor_page/' . $instructor_details['id']) ?>"-->
                                             <!--   class="course-instructor">-->
-                                                <span class="course-instructor instructor-name"><?php echo $instructor_details['first_name'] . ' ' . $instructor_details['last_name']; ?></span>
+                                                <!-- <span class="course-instructor instructor-name"><?php echo $instructor_details['first_name'] . ' ' . $instructor_details['last_name']; ?></span> -->
                                             <!--</a>-->
                                             </p>
                                         <p>

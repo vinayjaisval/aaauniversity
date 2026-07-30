@@ -746,7 +746,7 @@ h3{
                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                      data-bs-parent="#faq-accordion">
                                     <div class="accordion-body">
-                                        <p>On AAA Academia, learning is easy. Browse <a href="https://www.aaauniversity.co.in" target="_blank" style="color: #05256c; text-decoration: underline;">www.aaaAcademia.co.in</a>
+                                        <p>On AAA Academia, learning is easy. Browse <a href="https://www.aaaacademia.co.in" target="_blank" style="color: #05256c; text-decoration: underline;">www.aaaacademia.co.in</a>
                                             and search for the course that you want to take. Buy the course
                                             and log in to the portal with the username and password you got
                                             in the confirmation email. You will get an email containing information
@@ -768,8 +768,8 @@ h3{
                                        <p>We offer classes in hybrid mode (both offline and online). Head office of AAA Academia is located at Noida and We are expanding in various states across the country. Especially in tier 2 and rural areas, to provide equal opportunities for upskilling.
                                             <br>
                                             Right now we are at:
-                                            <li>Gorakhpur</li>
-                                            <li>Patna </li>
+                                            <li>Noida</li>
+                                            <li>Dimapur</li>
                                             .</p>
                                     </div>
                                 </div>
