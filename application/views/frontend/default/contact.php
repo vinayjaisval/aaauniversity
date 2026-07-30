@@ -122,7 +122,7 @@
 <div class="google-map-area">
     <div class="mapouter">
         <div class="gmap_canvas">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d28023.002678156183!2d77.29743734135744!3d28.603516505325675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x390d1e22a75832bb%3A0xae72762e73c41040!2sOverseas%20Education%20Lane%2C%201st%20floor%2C%20B%2037%2C%20B%20Block%2C%20Sector%202%2C%20Noida%2C%20Uttar%20Pradesh%20201301!3m2!1d28.5871727!2d77.31666059999999!5e0!3m2!1sen!2sin!4v1785396893461!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d28023.002678156183!2d77.29743734135744!3d28.603516505325675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x390d1e22a75832bb%3A0xae72762e73c41040!2sOverseas%20Education%20Lane%2C%201st%20floor%2C%20B%2037%2C%20B%20Block%2C%20Sector%202%2C%20Noida%2C%20Uttar%20Pradesh%20201301!3m2!1d28.5871727!2d77.31666059999999!5e0!3m2!1sen!2sin!4v1785396893461!5m2!1sen!2sin" width="600" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
     </div>
 </div>
