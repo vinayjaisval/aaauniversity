@@ -53,9 +53,12 @@
                             
                           <p> <b style="    color: #00276c;">Head Office :- </b> B-37, 1st FLOOR,, Sector 2, Noida, Uttar Pradesh 201301
                           </p>
-                            <p> <b style="    color: #00276c;">Gorakhpur :-</b> H N 708, Near Jain Eye Hospital, Mohaddipur, Gorakhpur
+                            <p> <b style="    color: #00276c;">Nagaland :-</b> 3rd floor, Providence Abode, 4th mile, Near Green Park, Chumoukedima, Nagaland, 797103 
                             </p>
-                            <p> <b style="    color: #00276c;">Patna :-</b> Trishul Market, Near Goraknath Complex, Boring Canal Rd, opp. Hotel Lalita, Patna, Bihar 800001
+                            <p> <b style="    color: #00276c;">Mumbai :-</b> Anand India business hub near Siddharth Mangal murti housing society, behind Mahalaxmi hospital, ideal park, deepak hospital road, Mira Road east 401107 , Thane, Maharashtra
+                            </p>
+                            <p> <b style="    color: #00276c;">New Delhi
+ :-</b> E 15, basement, Block E, near Shani Mandir, Rampul, Lajpat Nagar 1, Block E, Lajpat Nagar I, Lajpat Nagar , New Delhi, Uttar Pradesh
                             </p>
                           
                         </li>
