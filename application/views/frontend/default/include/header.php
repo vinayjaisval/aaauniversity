@@ -50,16 +50,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7ZVJKNDGQP"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-7ZVJKNDGQP');
-        </script>
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7ZVJKNDGQP"></script>
+   
 
 <!-- Meta Pixel Code -->
 <script>
@@ -83,6 +74,17 @@ src="https://www.facebook.com/tr?id=27777939875156007&ev=PageView&noscript=1"
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-7ZVJKNDGQP');
+</script>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2XN1RFQPVP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2XN1RFQPVP');
 </script>
     <!--    <link rel="stylesheet" href="">-->
     <style type="text/css">
